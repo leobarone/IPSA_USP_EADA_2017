@@ -34,7 +34,7 @@ Again, before you start, download the shortened version (Brazil only) we prepare
 
 ### Links to the laboratories 
 
-- [Basics of data Management] (link)
+- [Laboratory 1 - The basics of getting, reading and describing the data] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Labs/stata_lab_1.md)
 
 ## Activities
 
