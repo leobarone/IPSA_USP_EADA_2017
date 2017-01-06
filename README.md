@@ -22,7 +22,7 @@ About this dataset: each unit in the dataset is a californian school. The data c
 
 Whenever you need to check a variable in this dataset, you can go to the dictionary, available online [here] (http://www.cde.ca.gov/ta/ac/ap/reclayout13g.asp). Please, be sure you download the [api13_school_data.dta] (link), the modified version we prepared for the course -- it is already in Stata format -- into your computer before you start.
 
-I particularly like this dataset because you can, in the near future, learn more Stata by yourself at [IDRE-UCLA] resources (http://www.ats.ucla.edu/stat/stata/), whose [web book] (http://www.ats.ucla.edu/stat/stata/webbooks/reg/chapter1/statareg1.htm) on regression analysis uses the same dataset.
+I particularly like this dataset because you can, in the near future, learn more Stata by yourself at [IDRE-UCLA] (http://www.ats.ucla.edu/stat/stata/) resources, whose [web book] (http://www.ats.ucla.edu/stat/stata/webbooks/reg/chapter1/statareg1.htm) on regression analysis uses the same dataset.
 
 #### 2015 Latinobarometer
 
