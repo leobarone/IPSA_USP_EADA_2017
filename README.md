@@ -2,6 +2,10 @@
 
 Please, read the instructions bellow before you start the activities and laboratories.
 
+##  Syllabus
+
+I will keep here an updated version of the syllabus soon.
+
 ##  Laboratories
 
 ### Instructions and Objective
