@@ -49,9 +49,9 @@ Again, before you start, download the shortened version (Brazil only) we prepare
 - [Laboratory 5 - Table of summary statistics] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Labs/stata_lab_5.md)
 - [Laboratory 6 - Value labels] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Labs/stata_lab_6.md)
 - [Laboratory 7 - Comparison between groups and Box-plot graphs] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Labs/stata_lab_7.md)
+- [Laboratory 8 - Generating new variables and replacing values] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Labs/stata_lab_8.md)
 - [Laboratory 9 - Two way graphs and correlation] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Labs/stata_lab_9.md)
 - [Laboratory 10 - Generating new variables and calculating functions of variables] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Labs/stata_lab_10.md)
-
 
 ## Activities and Handouts
 
