@@ -1,0 +1,7 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Course Overview}{2}{section.1}
+\contentsline {section}{\numberline {2}Prerequisites}{2}{section.2}
+\contentsline {section}{\numberline {3}Outline of the Course}{2}{section.3}
+\contentsline {section}{\numberline {4}Readings}{3}{section.4}
+\contentsline {section}{\numberline {5}Course Schedule}{5}{section.5}
+\contentsline {section}{\numberline {6}Course Time Schedule}{7}{section.6}

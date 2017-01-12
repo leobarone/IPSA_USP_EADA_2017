@@ -6,6 +6,10 @@ Please, read the instructions bellow before you start the activities and laborat
 
 I will keep here an updated version of the syllabus soon.
 
+##  Readings
+
+Please, login at the course page at http://ipsa-usp.com/users/login to access the readings.
+
 ##  Laboratories
 
 ### Instructions and Objective

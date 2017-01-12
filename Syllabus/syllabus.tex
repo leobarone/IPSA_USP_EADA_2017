@@ -1,0 +1,191 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage{geometry}             
+\geometry{letterpaper}                  
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{bibentry}  
+\nobibliography*
+\usepackage{hyperref}
+\setlength{\parindent}{0em}
+\setlength{\parskip}{1em}
+\newcommand{\specialcell}[2][l]{%
+  \begin{tabular}[#1]{@{}l@{}}#2\end{tabular}}
+  
+\title{Essentials of Applied Data Analysis\\ \large  IPSA USP Summer School 2017  \\ January 23-27, 2017}
+
+\author{Leonardo Sangali Barone \\ Post-Doc Fellow at the Department Political Science, USP\\ \href{mailto:leonardo.barone@usp.br}{leonardo.barone@usp.br}}
+
+\renewcommand*\contentsname{}
+\setlength{\textfloatsep}{1pt plus 1pt minus 1pt}
+
+\date{}
+
+\begin{document}
+
+	\maketitle 
+    \tableofcontents
+	\pagebreak
+
+
+\section{Course Overview}
+
+This course is designed for students who are interested in reviewing their training in data analysis and statistics. It prepares students for courses offered in the IPSA-USP Summer School that require the application of basic concepts of probability, random variables and statistical inference. The course will take place in the week preceding the commencement of the regular courses in the Summer School.
+
+In the course, we will review the following topics: descriptive statistics and basic data analysis; probability theory and applications to social science problems; random variables and distributions; confidence intervals and hypothesis testing; and (a very brief introduction to) regression analysis.
+
+By the end of the intensive one-week course, students should be able to: 1- understand and provide solutions to basic probability and inference problems; and 2- apply the fundamental concepts in probability theory and statistics to social science research questions.
+
+This course departs from the premise that the most effective way to learn statistics is by actively engaging in doing the statistical analysis. For each topic, we will have lectures that will be followed by sessions in which students will use data to answer questions that are important to political scientists. Similar to other 1st week IPSA-USP Summer School courses, this course takes a ``hands on'' approach. Students will apply the concepts taught in lectures to analyse problems in quantitative social science research using software packages including Excel and Stata.   
+
+\section{Prerequisites}
+
+The course presumes students have some basic training in mathematics including arithmetic and algebra operations.
+
+\section{Outline of the Course}
+
+	\begin{enumerate}
+        \item Descriptive Statistics in the Social Sciences
+        \item Toolkit for Data Analysis and Statistics
+        \item Probability: the basics
+        \item Probability: Conditional Probability and Independence
+        \item Probability: Bayes' theorem and the bayesian approach
+        \item Probability: Random Variables
+        \item Probability: Discrete and Continuous Probability Distributions 
+        \item Statistical Inference: Sampling. Law of Large Numbers. Central Limit Theorem.  
+        \item Statistical Inference: Point and Interval Estimation. Hypothesis Testing
+        \item Statistical Inference: Bivariate Regression Analysis
+    \end{enumerate}
+
+\section{Readings}
+
+We are going to use two main books in the course:
+
+\begin{itemize}
+	\item (\emph{M\&S}) \bibentry{moore_mathematics_2013}
+	\item (\emph{Ross}) \bibentry{ross_introductory_2010}
+\end{itemize}
+
+I highly recommend reading the entire \emph{M\&S} during the first year of your graduate program. It covers the content of a full and extensive math bootcamp for a political science or sociology program. That's more math than you will probably need in the first years of your career (although not enough statistics!). As you will see below, the first 3 chapters of \emph{M\&S} book are required pre-course readings. During the course, we will also use 3 more chapters. The Mathematics for Social Sciences course regularly offered by IPSA-USP Summer School (however, not this year) usually cover the remaining chapters. As an alternative to \emph{M\&S}, you can read Gill's book, indicated below.
+
+In most of the lectures I will work with \emph{Ross}'s book. It is an introductory statistics book and it covers the entire program. Although Ross doesn't write books for social science students, the book language is very accessible and the examples are sufficiently  good. There are a lot of alternatives for this book. I indicate some below (Sirkin; Agresti and Finlay are good alternatives that I have used in the past and I will take examples from these two books). Statistics book is a matter of taste: pick the book that you fell comfortable with and that you can understand. If you have used a book in the past that you like, locate the topics in the book and use it.
+
+Please, be aware that we are covering in just a few hours a ton of material. Organize yourself in advance and come prepared. I recommend that you read all of the pre-course readings (of course) and the readings for the first day before classes start.
+
+Alternative readings
+
+\begin{itemize}
+	\item \bibentry{gill_essential_2006}
+	\item \bibentry{agresti_statistical_2009} (*)
+	\item \bibentry{lipschutz_probability_1968} (*)
+	\item \bibentry{kellstedt_fundamentals_2013}
+	\item \bibentry{acock_gentle_2008}
+	\item \bibentry{cameron_microeconometrics_2009}
+	\item \bibentry{sirkin_statistics_2006}
+	\item \bibentry{wooldridge_introductory_2015} (*)
+\end{itemize}
+
+Bayesian and some advanced readings
+
+\begin{itemize}
+	\item \bibentry{mcelreath_statistical_2015}
+	\item \bibentry{gelman_bayesian_2013}
+	\item \bibentry{jackman_bayesian_2009}
+	\item \bibentry{ross_first_2014}
+	\item \bibentry{ross_introduction_2014}
+	\item \bibentry{wooldridge_econometric_2010}
+\end{itemize}
+
+Fun readings
+
+\begin{itemize}
+	\item \bibentry{mlodinow_drunkards_2009} (*)
+	\item \bibentry{bellos_alexs_2011} (*)
+	\item \bibentry{salsburg_lady_2002} (*)
+\end{itemize}
+
+(*) editions in Portuguese available.
+
+\section{Course Schedule}
+
+\textbf{Day 0 - Pre-Course math review}
+
+Topics: Notation; Algebra Review; Functions and Sets.
+
+Please, review the basics of mathematical notation, algebra, functions and set theory prior to the beginning of the course. Moore and Siegel's book is an excellent pre-course reading. Gill is a good alternative. I will be available after January, 4th to answer questions by e-mail or by appointment in the week before Summer School starts.
+
+Readings: \emph{M\&S} - chapter 1 (p. 3-27); chapter 2 (p. 28-43); chapter 3 (p. 44-74).
+
+If you want some interesting Holiday reading, I highly recommend both Leonardo Mlodinov and Alex Bellos' books (see Fun readings above).
+
+Fun Readings: Mlodinov (the whole book); Bellos (chapters 9 and 10).
+
+
+\textbf{Day 1 -- Data analysis in the social sciences and applied descriptive analysis}
+
+Topics: Introduction to data analysis in the social sciences and examples. Tool kit for the social science data analyst. Introduction to Stata.
+
+We will start by reviewing the basics of data analysis in the social sciences and go through some examples of how statistics and mathematics can be useful in social research. This first day will be a lot more light and we will lean a little bit of descriptive statistics and learn how to manage data, generate summary statistics, tables, graphs and other types of data visualization in Stata.
+
+Please, understand that we will not review the mathematics in the first day. This is a pre-course task.
+
+Readings: \emph{Ross} - chapter 2 (p. 17-70); chapter 3 (p. 71-138).
+
+\textbf{Day 2 -- Probability and random variable fundamentals}
+
+Topics: Counting. Sets. Probability. Conditional Probability and Bayes' Rule. Independence.
+
+In the second day we will learn the basics of probability. We will focus on the understanding of the basic rules and, specially, of the ideas of independence and conditional probability. Differently from the first day, we will not concentrate on working with Stata, but with paper and pencil.
+
+Readings: \emph{M\&S} - chapter 9 (p. 175-197) OR \emph{Ross} - chapter 4 (p.139-208).
+
+\textbf{Day 3 -- Probability Distributions - discrete, continuous}
+
+Topics: Random Variables. Discrete Random Variables. Continuous Distribution Topics. From Binomial to Normal.
+
+Random variables are the building blocks of data analysis. We will work on this topic on the third day and prepare the basis for sampling theory and statistical inference. We will also work a little bit with simulations and software applications.
+
+Readings: \emph{M\&S} - chapter 10 (p. 198-241); chapter 11 (p. 242-272) OR \emph{Ross} - chapter 5 (p. 209-259); chapter 6 (p. 261-296).
+
+\textbf{Day 4 -- Statistical Inference - Sampling, Central Limit Theorem and Hypothesis Testing}\\
+
+Topics: Sampling. Sampling Distributions. Law of Large Numbers. Central Limit Theorem. Point and Interval Estimation. Hypothesis Testing.
+
+This class is the core class of our course. We will learn the basics of sampling theory and the fundamental theorems, in particular the Central Limit Theorem, that are in the basis of hypothesis testing. We will extensively work with laboratory examples in the fourth day.
+
+Readings: \emph{Ross} - chapter 7 (p. 297-330); chapter 8 (p. 331-386); chapter 9 (p. 387-442)
+
+\textbf{Day 5 -- Statistical Inference for two populations and Bivariate Regression Analysis}
+
+Topics: Hypothesis Testing. Population Regression Model. Sample Regression Model.  Linear Regression with a Single Variable.
+
+The last class is going to be a very brief introduction to hypothesis testing for two populations an to linear regression with a single explanatory variable. Again, we will extensively work with laboratory examples during the last day.
+
+Readings: \emph{Ross} - chapter 10 (p. 443-502); chapter 12 (p. 537-573); chapter 9 (p. 387-442)
+
+\section{Course Time Schedule}
+
+Class starts at 9h00. At 12h00 we have a lunch break. We go back to class at 13h30, except on Wednesday, when there will be an information session with Prof. Derek Beach ("Controversies and Innovations in Qualitative Research: Transparency and Replication") fron 13h30 to 14h30. Class finishs at 18h00, except on Friday, when it will finish at 17h00 (but I will probably hold you an extra hour to rush and finish the last topic).
+
+\begin{tabular}{|l|l|l|l|l|}
+	\hline
+	 & \textbf{Morning} & \textbf{Info. Session} & \textbf{Afternoon 1} & \textbf{Afternoon 2}\\
+	\hline	
+	\specialcell{\textbf{Monday},\\January 23th} & \specialcell{Data Analysis\\in Social Sciences} &  & \specialcell{Data Analyst\\Toolkit} & \specialcell{Introduction to\\Stata}\\
+	\hline
+	\specialcell{\textbf{Tuesday},\\ January 24th} & \specialcell{Introduction to\\Probability}  & & \specialcell{Probability\\problems} & \specialcell{Probability\\problems}\\
+	\hline
+	\specialcell{\textbf{Wednesday},\\ January 25th} & \specialcell{Random Var.\\and Distributions} & \specialcell{Controversies and\\Innovations in Quali.\\Research:Transparency\\and Replication} & \specialcell{Applied Basic\\Stats (Stata)} & \specialcell{Cond. Probability\\problems}\\
+	\hline
+	\specialcell{\textbf{Thursday},\\ January 26th} & \specialcell{Sampling, CLT\\and Ho Testing} & & \specialcell{Applied Ho\\Testing (Stata)} & \specialcell{Inference\\problems}\\
+	\hline
+	\specialcell{\textbf{Friday},\\ January 27th} & \specialcell{Two Populations\\and Regression basics} & & \specialcell{Applied Regression\\with Stata} & \specialcell{Data Analyst\\Toolkit II}\\
+	\hline
+\end{tabular}
+
+\bibliography{biblio}
+\bibliographystyle{plain}
+
+\end{document}
