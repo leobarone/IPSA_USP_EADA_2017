@@ -1,5 +1,7 @@
 # Laboratory 8 - Generating new variables and replacing values
 
+## Objective
+
 We are going to learn two new commands in Stata: generate and replace. The first one is used to create new variables in our dataset and the second and is used to substitute (replace) values in our dataset. We will produce frequency tables, histograms and densities. We will use 2 different datasets. We will use 2 different datasets, the 2013 Growth Academic Performance Index (API) Data File.
 
 ## Generate
