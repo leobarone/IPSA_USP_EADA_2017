@@ -46,7 +46,7 @@ Again, before you start, download the shortened version (Brazil only) we prepare
 - [Laboratory 2 - Distributions: frequency tables, histograms and densities] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Labs/stata_lab_2.md)
 - [Laboratory 3 - Renaming, labeling and recoding variables] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Labs/stata_lab_3.md)
 - [Laboratory 4 - Logical Operators and if] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Labs/stata_lab_4.md)
-
+- [Laboratory 5 - Table of summary statistics] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Labs/stata_lab_5.md)
 
 ## Activities and Handouts
 
