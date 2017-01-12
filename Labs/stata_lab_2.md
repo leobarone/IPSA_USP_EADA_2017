@@ -4,13 +4,12 @@
 
 In this laboratory we are going to learn the basics of data description. We will produce frequency tables, histograms and densities. We will use 2 different datasets. We will use 2 different datasets, the 2013 Growth Academic Performance Index (API) Data File and the 2015 Latinobarometer.
 
+
+## Describe the data and get familiarized
+
+Let's start with Latinobarometer data for Brazil (Latinobarometro_2015_eng_BR.dta file). By now you probably now how to open the data. Get yourself familiarized with the data by the describing the dataset before moving on.
+
 ## Frequency Tables - One variable
-
-### Describe the data and get familiarized
-
-Let's start with Latinobarometer data for Brazil (Latinobarometro_2011_eng_BR.dta file). By now you probably now how to open the data. Get yourself familiarized with the data by the describing the dataset before moving on.
-
-### Frequency Tables
 
 Let's start by looking at the question P15N at the Latinobarometer.
 
