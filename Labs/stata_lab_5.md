@@ -1,5 +1,7 @@
 # Laboratory 5 - Table of summary statistics
 
+## Objective
+
 We are going to learn the basics of how to manage variables. We will produce frequency tables, histograms and densities. We will use 2 different datasets. We will use 2 different datasets, the 2013 Growth Academic Performance Index (API) Data File and the 2015 Latinobarometer.
 
 ## Table with summary statistics
@@ -32,7 +34,7 @@ tabstat api13 avg_ed meals, stat(mean sd  min max)
 
 Great, isn't it?
 
-# Table with summary statistics - Exercise
+## Table with summary statistics - Exercise
 
 Compare the performance of african-american, hispanic and white students using the tabstat command. Make hypothesis about the difference of means and observe the results. In the future we will see if those differences are "statistically significant".
 

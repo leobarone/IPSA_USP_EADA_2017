@@ -47,6 +47,8 @@ Again, before you start, download the shortened version (Brazil only) we prepare
 - [Laboratory 3 - Renaming, labeling and recoding variables] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Labs/stata_lab_3.md)
 - [Laboratory 4 - Logical Operators and if] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Labs/stata_lab_4.md)
 - [Laboratory 5 - Table of summary statistics] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Labs/stata_lab_5.md)
+- [Laboratory 6 - Value labels] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Labs/stata_lab_6.md)
+- [Laboratory 7 - Comparison between groups and Box-plot graphs] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Labs/stata_lab_7.md)
 
 ## Activities and Handouts
 

@@ -1,5 +1,7 @@
 # Laboratory 4 - Logical Operators and if
 
+## Objective
+
 We are going to learn Stata logical operators and the subcommand "if". We will use the logical operators to perform the same commands that you did previously. However, now we will use them to do tables, histograms and density plots for subgroups. We are going to use our two datasets to create subset/subgroups/subsamples.
 
 ## Logical Operators and if - Tables
