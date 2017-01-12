@@ -4,7 +4,7 @@ Please, read the instructions bellow before you start the activities and laborat
 
 ##  Syllabus
 
-I will keep here an updated version of the syllabus soon.
+Updated (jan-04-2017) version of the [Syllabus] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Syllabus/syllabus.pdf)
 
 ##  Readings
 
