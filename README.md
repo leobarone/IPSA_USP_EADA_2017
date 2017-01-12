@@ -30,7 +30,7 @@ About this dataset: each unit in the dataset is a californian school. The data c
 
 Whenever you need to check a variable in this dataset, you can go to the dictionary, available online [here] (http://www.cde.ca.gov/ta/ac/ap/reclayout13g.asp). Please, be sure you download the [api13_school_data.dta] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Data/api13_school_data.dta), the modified version we prepared for the course -- it is already in Stata format -- into your computer before you start.
 
-I particularly like this dataset because you can, in the near future, learn more Stata by yourself at [IDRE-UCLA] (http://www.ats.ucla.edu/stat/stata/) resources, whose [web book] (http://www.ats.ucla.edu/stat/stata/webbooks/reg/chapter1/statareg1.htm) on regression analysis uses the same dataset.
+I particularly like this dataset because you can, in the near future, learn more Stata by yourself at [IDRE-UCLA] (http://www.ats.ucla.edu/stat/stata/) resources, whose [web book] (http://www.ats.ucla.edu/stat/stata/webbooks/reg/chapter1/statareg1.htm) on regression analysis uses and older versions of the same dataset.
 
 #### 2015 Latinobarometer
 
@@ -38,7 +38,7 @@ The second one is the 2015 Latinobarometer. This is a very popular survey on dem
 
 We will use the dataset to formulate hypothesis about the brazilian electorate and explore our creativity. This is why it will be very important that we spend some time exploring the dictionary, whose .pdf is available both in [english] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Data/Latinobarometro_Questionnaire_2015_Eng.pdf) and [spanish] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Data/Latinobarometro_Cuestionario_2015_Esp.pdf) (although not in portuguese, even though it exists). It is a consolidated survey, so don't be frustrated if the data you are looking for is not ther and look for something else.
 
-Again, before you start, download the shortened version (Brazil only) we prepared for the laboratories [here] (link) 
+Again, before you start, download the shortened version (Brazil only) we prepared for the laboratories [here] (link) (link not ready yet).
 
 ### Links to the laboratories 
 
@@ -48,7 +48,7 @@ Again, before you start, download the shortened version (Brazil only) we prepare
 - [Laboratory 4 - Logical Operators and if] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Labs/stata_lab_4.md)
 
 
-## Activities
+## Activities and Handouts
 
 Soon.
 
