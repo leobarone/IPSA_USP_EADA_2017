@@ -38,7 +38,7 @@ The second one is the 2015 Latinobarometer. This is a very popular survey on dem
 
 We will use the dataset to formulate hypothesis about the brazilian electorate and explore our creativity. This is why it will be very important that we spend some time exploring the dictionary, whose .pdf is available both in [english] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Data/Latinobarometro_Questionnaire_2015_Eng.pdf) and [spanish] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Data/Latinobarometro_Cuestionario_2015_Esp.pdf) (although not in portuguese, even though it exists). It is a consolidated survey, so don't be frustrated if the data you are looking for is not ther and look for something else.
 
-Again, before you start, download the shortened version (Brazil only) we prepared for the laboratories [here] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Data/Latinobarometro_2015_eng_BR.dta) (link not ready yet).
+Again, before you start, download the shortened version (Brazil only) we prepared for the laboratories [here] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Data/Latinobarometro_2015_eng_BR.dta).
 
 ### Links to the laboratories 
 
