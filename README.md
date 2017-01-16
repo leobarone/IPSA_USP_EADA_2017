@@ -55,18 +55,13 @@ Again, before you start, download the shortened version (Brazil only) we prepare
 
 ## Activities and Handouts
 
-Soon.
+### Handouts
 
+- [Set Theory] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_set_theory.pdf)
+- [Probability - Part I] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_I.pdf)
+- [Probability - Part II] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_II.pdf)
+- [Probability - Part III] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_III.pdf)
 
+### Activities
 
-
-
-
-
-
-
-
-
-
-
-
+- [Stata Coin Simulation](https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Do_files/coin_simulation.do)
