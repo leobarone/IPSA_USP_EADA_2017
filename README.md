@@ -12,7 +12,7 @@ Please, login at the course page at http://ipsa-usp.com/users/login to access th
 
 ##  Laboratories
 
-Authors: Leonardo Sangali Barone and Patrick Silva (with contributions from Franscico Urdinez and Victor Araújo)
+Authors: [Leonardo Sangali Barone] (leonardo.barone@usp.br) and [Patrick Silva] (leonardo.barone@usp.br)
 
 ### Instructions and Objective
 
