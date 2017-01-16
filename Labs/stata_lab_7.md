@@ -1,6 +1,7 @@
 # Laboratory 7 - Comparison between groups and Box-plot graphs
 
 ## Objective
+
 In this quick lab we are going to learn how to build a box-plot in Stata. We will use the 2013 Growth Academic Performance Index (API) Data File in this lab.
 
 ## Box-plot

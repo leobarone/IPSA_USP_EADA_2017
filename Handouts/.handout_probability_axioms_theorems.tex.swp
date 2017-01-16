@@ -1,0 +1,52 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{indentfirst}
+\usepackage{hyperref}
+\let\oldemptyset\emptyset
+\let\emptyset\varnothing
+
+
+\title{\textbf{Esssentials of Applied Data Analysis\\
+				IPSA-USP Summer School 2017}}
+
+\author{Leonardo Sangali Barone\\ \href{leonardo.barone@usp.br}{leonardo.barone@usp.br}}
+\date{jan/17}
+
+\begin{document}
+
+\maketitle
+
+\section*{Axioms and theorems of probability - summary}
+
+	(Also know as ``rules of probability'')
+
+	\begin{enumerate}
+		\item For every event A, $0 \leq P(A) \leq 1$
+		\item $P(S) = 1$
+		\item $P(\emptyset) = 0$
+		\item  If $A$ and $B$ are mutually exclusive, then:
+	\[P(A \cup B) = P(A) + P (B)\]
+		\item  If $A_1$, $A_2$, ... is a sequence of mutually exclusive events, then:
+	\[P(A_1 \cup A_2 \cup ... \cup A_n) = P(A_1) + P (A_2) + ... + P(A_n)\]
+		\item  $P(A^c) = 1 - P(A)$
+		\item  $P(A \cup A^c) = P(A) + P(A^c) = 1$ (because they are mutually exclusive)
+		\item $P(A \cap B)$ is the the probability of $A$ \textbf{AND} $B$ happening at the same time.																																																																																																																		
+		\item  $P(A \cup B) = P(A) + P(B) - P(A \cap B)$
+		\item If A and B are independent events, then $P(A \cap B) = P(A) * P(B)$
+		\item If A and B are not independent events, then the conditional probability of A given B, $P(A|B)$, 	is defined as
+	\[P(A|B) = \frac{P(A\cap B)}{P(B)}\]
+		\item If A and B are independent events, then $P(A|B) = P(A)$ and the formula
+	\[P(A|B) = \frac{P(A\cap B)}{P(B)}\]
+	can be rewritten as (as previously seen)
+	\[P(A\cap B) = P(A)*P(B)\]
+		\item If A and B are mutually exclusive, then
+		\[P(A\cap B) = 0\]
+			hence
+		 \[P(A|B) = P(B|A) = 0\] 
+
+	\end{enumerate}
+
+\end{document}

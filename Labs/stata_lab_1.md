@@ -1,5 +1,7 @@
 # Laboratory 1 - The basics of getting, reading and describing the data
 
+Authors: [Leonardo Sangali Barone] (leonardo.barone@usp.br) and [Patrick Silva] (leonardo.barone@usp.br)
+
 ## Objective
 
 In this first laboratory we are going to learn the basics of how to manage a dataset on Stata and describe the data. We will use 2 different datasets, the 2013 Growth Academic Performance Index (API) Data File and the 2015 Latinobarometer.

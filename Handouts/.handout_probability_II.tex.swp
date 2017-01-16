@@ -120,5 +120,15 @@
 		\item  $P(A \cup B) = P(A) + P(B) - P(A \cap B)$ 
 	\end{itemize}
 
+	\subsection*{Not mutually exclusive events - dice and legislators}
+	Going back to our problem, what's is the probability of getting a prime \textbf{OR} an odd number?
+	
+	\[P(\text{prime }\cup\text{ odd}) = P(\text{prime}) + P(\text{odd}) - P(\text{prime }\cap\text{ even}) 
+	= \frac{3}{6} + \frac{3}{6} - \frac{2}{6} = \frac{4}{6} = \frac{2}{3}\]
+	
+	What's is the probability of getting a legislator from Party A \textbf{OR} a woman (W)?\\
+	
+	If there is at leat a W on party A, then
+	\[P(A \cup W) = P(A) + P(W) - P(A \cap W)\]
 
 \end{document}

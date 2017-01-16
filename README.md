@@ -60,9 +60,11 @@ Again, before you start, download the shortened version (Brazil only) we prepare
 ### Handouts
 
 - [Set Theory] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_set_theory.pdf)
+- [Probability - Summary] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_axioms_theorems.pdf)
 - [Probability - Part I] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_I.pdf)
 - [Probability - Part II] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_II.pdf)
 - [Probability - Part III] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_III.pdf)
+- [Probability - Part IV] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_IV.pdf)
 
 ### Activities
 
