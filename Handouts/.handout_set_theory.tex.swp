@@ -13,7 +13,7 @@
 				IPSA-USP Summer School 2017}\newline\\
 				Handout - The Basics of Set Theory}
 
-\author{Leonardo Sangali Barone\\leonardo.barone@usp.br}
+\author{Leonardo Sangali Barone\\ \href{leonardo.barone@usp.br}{leonardo.barone@usp.br}}
 \date{jan/17}
 
 \begin{document}
@@ -52,8 +52,7 @@ Basic notions and notation of set theory.
 	\end{itemize}
 
 \subsection*{Venn Diagrams}
- We can represent sets with diagrams. These are called ``Venn Diagrams''. Check Figure 1 and locate the following sets as a quick exercise:\\
-
+ We can represent sets with diagrams. These are called ``Venn Diagrams''. See Figure~\ref{f1}\\ and locate the following sets as a quick exercise:\\
 
 \begin{tabular}{llll}
 	1) $A \cup B$ & 5) $(A \cup B) \cup C$ & 9) $A^c$ & 13) $((A \cap B) \cap C)^c$\\
@@ -66,7 +65,7 @@ Basic notions and notation of set theory.
 \centering
 \includegraphics[scale=0.50]{venn.png}
 \caption{Venn Diagrams}
-\label{}
+\label{f1}
 \end{figure}
 
 \end{document}
