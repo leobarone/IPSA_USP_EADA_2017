@@ -114,5 +114,11 @@
 	Or, more elegantly:
 	\[P(\text{not 5}) = 1 - P(5) = 1 - \frac{1}{6} = \frac{5}{6}\]
 
+	\subsection*{Axioms and theorems of probability (4)}
+	\begin{itemize}
+		\item $P(A \cap B)$ is the the probability of $A$ \textbf{AND} $B$ happening at the same time.																																																																																																																		
+		\item  $P(A \cup B) = P(A) + P(B) - P(A \cap B)$ 
+	\end{itemize}
+
 
 \end{document}

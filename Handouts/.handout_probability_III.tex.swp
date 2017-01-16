@@ -24,10 +24,5 @@
 
 	Basic Notions of probability, part III.
 
-	\subsection*{Axioms and theorems of probability (4)}
-	\begin{itemize}
-		\item $P(A \cap B)$ is the the probability of $A$ \textbf{AND} $B$ happening at the same time.																																																																																																																		
-		\item  $P(A \cup B) = P(A) + P(B) - P(A \cap B)$ 
-	\end{itemize}
 
 \end{document}

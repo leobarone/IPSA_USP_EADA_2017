@@ -12,6 +12,8 @@ Please, login at the course page at http://ipsa-usp.com/users/login to access th
 
 ##  Laboratories
 
+Authors: Leonardo Sangali Barone and Patrick Silva (with contributions from Franscico Urdinez and Victor Araújo)
+
 ### Instructions and Objective
 
 The following laboratories were prepared as activies for the Essentials of Applied Data Analysis course at IPSA-USP Summer School 2017. The main goal is to prepare you to learn the basics of data management and analysis using Stata, which is one of the most popular statistical packages in political science and economics.
