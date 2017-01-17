@@ -60,12 +60,19 @@ Again, before you start, download the shortened version (Brazil only) we prepare
 ### Handouts
 
 - [Set Theory] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_set_theory.pdf)
-- [Probability - Summary] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_axioms_theorems.pdf)
-- [Probability - Part I] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_I.pdf)
-- [Probability - Part II] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_II.pdf)
-- [Probability - Part III] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_III.pdf)
-- [Probability - Part IV] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_IV.pdf)
+- [Probability rules - Summary] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_axioms_theorems.pdf)
+- [Probability rules - Part I] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_I.pdf)
+- [Probability rules - Part II] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_II.pdf)
+- [Probability rules - Part III] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_III.pdf)
+- [Probability rules - Part IV] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_IV.pdf)
+- [Random variables] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_random_variables.pdf)
+- [Discrete Random variables] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_discrete_random_variables.pdf)
+- [Expected Value] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_expected_value.pdf)
 
 ### Activities
+
+To be anounced
+
+### Code and Miscellania
 
 - [Stata Coin Simulation](https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Do_files/coin_simulation.do)
