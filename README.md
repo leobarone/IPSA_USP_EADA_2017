@@ -54,6 +54,7 @@ Again, before you start, download the shortened version (Brazil only) we prepare
 - [Laboratory 8 - Generating new variables and replacing values] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Labs/stata_lab_8.md)
 - [Laboratory 9 - Two way graphs and correlation] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Labs/stata_lab_9.md)
 - [Laboratory 10 - Generating new variables and calculating functions of variables] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Labs/stata_lab_10.md)
+- [Laboratory 11 - Confidence intervals and hypothesis test] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Labs/stata_lab_11.md)
 
 ## Activities and Handouts
 
