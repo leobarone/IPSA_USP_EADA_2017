@@ -1,0 +1,73 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[parfill]{parskip}
+\let\oldemptyset\emptyset
+\let\emptyset\varnothing
+
+
+\title{\textbf{Esssentials of Applied Data Analysis\\
+				IPSA-USP Summer School 2017}\newline\\
+				Handout - Special Probability Distributions}
+
+\author{Leonardo Sangali Barone\\ \href{leonardo.barone@usp.br}{leonardo.barone@usp.br}}
+\date{jan/17}
+
+\begin{document}
+
+\maketitle
+
+\section*{Special Probability Distributions}
+
+	\subsection*{Probability Distributions}
+	We have seen yesterday what random variables (both discrete and continuous) probability functions and probability distributions are. (Can you define all of theses concepts?)
+	\newline\\
+	Today, we start by looking at some known probability distributions. Some distributions, as we will see, are derived from a known random proccess, hence, we can precisely describe them matematically. These distributions are called special probability distributions or probability models and they can be normally found in our data.
+
+	\subsection*{Probability Distributions - most well-known}
+	We are going to cover only a few distributions:\\
+
+	Discrete: 
+	\begin{itemize}
+		\item Uniform
+		\item Bernoulli
+		\item Binomial
+	\end{itemize}
+	
+	Continuous:
+	\begin{itemize}
+		\item Uniform
+		\item Normal
+		\item Exponential
+		\item Chi-square (gamma)
+		\item F
+		\item t-student
+	\end{itemize}
+		
+	\subsection*{Discrete Probability Distributions - Uniform}
+	The uniform distribution is the simple case of probability model (for discrete and continuous variables. Distributions of the class have in common the fact that every value of the random variable has the same probability of occuring.
+	\newline\\
+	In the discrete case, $P(X=x_i) = 1/k$, where k is the number of possible outcomes for the variable.
+	\newline\\
+	In the continuous case, the probability function is $f(x_i) = 1/b-a$, and $[a,b]$ is the interval that contains all possible outcomes of the variable.
+
+	\subsection*{Discrete Probability Distributions - Uniform}
+	The expected value of a uniform variable is:
+	\newline\\
+	Discrete
+	\[E[X] = \frac{1}{k} \sum\limits_{i=1}^k x_i\]
+	Continuous
+	\[E[X] = \frac{(a+b)}{2} \]
+
+	\subsection*{Discrete Probability Distributions - Uniform}
+	The variance of a uniform variable is:
+	\newline\\
+	Discrete
+	\[E[X] = \frac{1}{k} (\sum\limits_{i=1}^k x_i^2-(\sum\limits_{i=1}^k x_i)^2/k\]
+	Continuous
+	\[E[X] = \frac{(a+b)^2}{12} \]
+
+\end{document}

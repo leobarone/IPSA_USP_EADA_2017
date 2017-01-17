@@ -3,15 +3,15 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{graphicx}
-\usepackage{indentfirst}
 \usepackage{hyperref}
+\usepackage[parfill]{parskip}
 \let\oldemptyset\emptyset
 \let\emptyset\varnothing
 
 
 \title{\textbf{Esssentials of Applied Data Analysis\\
 				IPSA-USP Summer School 2017}\newline\\
-				Handout - The Basics of Probability Theory - III}
+				The Basics of Probability Theory - Independence and conditional probability}
 
 \author{Leonardo Sangali Barone\\ \href{leonardo.barone@usp.br}{leonardo.barone@usp.br}}
 \date{jan/17}
@@ -22,9 +22,7 @@
 
 \section*{Introduction to Probability - Part III}
 
-	Basic Notions of probability, part III.\\
-
-	This handout is of EXTREME importance, so don't rush.
+	Basic Notions of probability, part III.
 
 	\subsection*{Independence}
 	The event $B$ is said to be independent of the event $A$ if the probability that $B$ occurs is not influenced by whether $A$ has or has not ocurred.\\
@@ -52,7 +50,7 @@
 
 	\[P(H_1\cap H_2) = P(H_1) * P(H_2) = P(H) * P(H) =\frac{1}{2} * \frac{1}{2} = \frac{1}{4}\]
 
-	\[\text{Sample Space = \{H,H\},\{H,T\},\{T,H\},\{T,T\}}\]\\
+	\[\text{Sample Space = \{H,H\},\{H,T\},\{T,H\},\{T,T\}}\]
 	
 	2) Toss a coin 50 times. What's is the probability of getting 50 times head ($H$)?
 
@@ -62,7 +60,7 @@
 	
 	\[P(\text{1 Tail or more}) = P(\text{exactly 1 Tail}) + P(\text{exactly 1 Tails}) + ... + P(\text{exactly 10 Tails}) =\]
 	\[= \{P(T\cap H \cap ... \cap H) + P(H \cap T\cap H \cap ... \cap H) + P(H \cap ... \cap H \cap T)\} +  \]
-	\[+P(\text{exactly 2 Tails}) + ... + P(\text{exactly 10 Tails}) =\]\\
+	\[+P(\text{exactly 2 Tails}) + ... + P(\text{exactly 10 Tails}) =\]
 
 	OMG!!! How do I compute that?\\
 
@@ -76,14 +74,14 @@
 	Take a card from a deck (52 cards).\\
 	
 	What's is the probability of getting a Queen ($Q$)?
-	\[P(Q) = \frac{4}{52} = \frac{1}{13}\]\\
+	\[P(Q) = \frac{4}{52} = \frac{1}{13}\]
 	
 	What's is the probability of getting a Hearts ($H$)?
-	\[P(Q) = \frac{13}{52} = \frac{1}{4}\]\\
+	\[P(Q) = \frac{13}{52} = \frac{1}{4}\]\
 	
 	
 	What's is the probability of getting the Queen of Hearts ($Q \cap H$)?
-	\[P(Q \cap H) = P(Q) * P(H) = \frac{1}{13} * \frac{1}{4} = \frac{1}{52}\]\\
+	\[P(Q \cap H) = P(Q) * P(H) = \frac{1}{13} * \frac{1}{4} = \frac{1}{52}\]
 
 	If the card deck is complete, the suit and the number are independent of each other, so we can apply $P(A \cap B) = P(A) * P(B)$
 
@@ -172,11 +170,11 @@
 	\subsection*{Conditional Probability - family - answers}
 	1) A family has two kids. What is the probability that both kids be are girls?
 
-	\[P(G \cap G) = \left(\frac{1}{2}\right)^2 = \frac{1}{4} \text{ (Independent events)}\]\\
+	\[P(G \cap G) = \left(\frac{1}{2}\right)^2 = \frac{1}{4} \text{ (Independent events)}\]
 	
 	2)A family has two kids. The first is a girl. What is the probability that the other one is also a girl?\\
 
-	\[P(G) = \frac{1}{2}\text{ (Independent events)}\]\\
+	\[P(G) = \frac{1}{2}\text{ (Independent events)}\]
 
 	3) A family has two kids. One is a girl (event $B$). What is the probability that the other kid is a girl (event $G$ = 2 girls)?\\
 	
@@ -188,7 +186,7 @@
 
 	Or, more simply, 
 	
-	\[P(G|B) = \frac{P(G\cap G)}{P(G)} = \frac{\#\{(G,G)\}}{\#\{(B,G), (G,B), (G,G)\}} = \frac{1}{3}\]\\
+	\[P(G|B) = \frac{P(G\cap G)}{P(G)} = \frac{\#\{(G,G)\}}{\#\{(B,G), (G,B), (G,G)\}} = \frac{1}{3}\]
 
 	4) (SUPER HARD EXTRA QUESTION) A family has two kids. One is \textbf{a girl called Arya} (event $B$). What is the probability that the other kid is a girl (event $G$ = 2 girls)?\\
 

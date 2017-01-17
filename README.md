@@ -61,11 +61,11 @@ Again, before you start, download the shortened version (Brazil only) we prepare
 ### Handouts
 
 - [Set Theory] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_set_theory.pdf)
-- [Probability rules - Summary] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_axioms_theorems.pdf)
-- [Probability rules - Part I] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_I.pdf)
-- [Probability rules - Part II] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_II.pdf)
-- [Probability rules - Part III] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_III.pdf)
-- [Probability rules - Part IV] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_IV.pdf)
+- [Probability rules - Axioms and Theorems summary] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_axioms_theorems.pdf)
+- [Probability rules - Single Events] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_single.pdf)
+- [Probability rules - Compound Events] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_compound.pdf)
+- [Probability rules - Independence] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_independence.pdf)
+- [Probability rules - Bayes' rule] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_bayes.pdf)
 - [Random variables] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_random_variables.pdf)
 - [Building a fake dataset] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_building_fake_data.pdf)
 - [Discrete Random variables] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_discrete_random_variables.pdf)
