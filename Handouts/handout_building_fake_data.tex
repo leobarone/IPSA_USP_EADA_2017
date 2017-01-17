@@ -1,0 +1,70 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{indentfirst}
+\usepackage{hyperref}
+\let\oldemptyset\emptyset
+\let\emptyset\varnothing
+
+
+\title{\textbf{Esssentials of Applied Data Analysis\\
+				IPSA-USP Summer School 2017}\newline\\
+				Handout - Discrete Random Variables}
+
+\author{Leonardo Sangali Barone\\ \href{leonardo.barone@usp.br}{leonardo.barone@usp.br}}
+\date{jan/17}
+
+\begin{document}
+
+\maketitle
+
+\section*{Building a fake dataset of Fakeland citizens}
+
+	Fakeland is a very stable democracy that helds presidential elections every 4 years. We are going to build the fake dataset of Fakeland individual citizens with information about their basic characteristics and political opinions/positions. We are going to do it in order to explore types of variables, to understand the link between probability rules and data analysis and to learn about random variables.\\
+	
+	The variables that our dataset will contain are:
+	
+	\begin{itemize}
+
+	\item \emph{age}: age
+	\item \emph{sex}: sex
+	\item \emph{educ}: educational level
+	\item \emph{income}: montly income measured in fake money (FM\$)
+	\item \emph{savings}: total fake money (FM\$) in savings account
+	\item \emph{marrige}: marriage status
+	\item \emph{kids}: number of children
+	\item \emph{party}: party affiliation
+	\item \emph{turnout}: intention to vote in the next election
+	\item \emph{economy}: opinion about the national economy performance
+	\item \emph{incumbent}: opinion about the incumbent president performance
+	\item \emph{candidate}: candidate of preference
+	
+	\end{itemize}
+	
+	\subsection*{Types of Variables}
+
+	First, let's remember the types of variables:\\
+	
+	A) Discrete - values are countable, even if infinite.
+	
+	\begin{itemize}
+		\item Nominal - can be counted, but not ordered
+		\item Ordinal - can be counted and ordered
+		\item Integer - can be counted, ordered and are distance among categories are mathematically meaningful (yes, numbers with no decimals).
+	\end{itemize}
+	
+	B) Continuous - Infinite set of values. Not countable (yes, whatever number there is, including $\sqrt{2} $ and $\pi$). \\
+
+	\subsection*{Types of Variables - Exercise}
+
+	Look at the fake dataset you have in hands. Can you classify the variables by type?
+
+	\subsection*{Drawing data from fake distributions}
+	
+	To build the dataset one could simply type values in a spreadsheet. However, there is a more elegant strategy. Instead of filling a dataset randomly, I could determine, as if I were God, the distributions of each variable and sample from that distribution. In fact, the fake dataset you have in hands was built tis way using \emph{R Statistical Package}. You can find the code that builds it in the course material.
+	
+	In the next handout we will explore distributions of discrete and continuous random variables using our fake dataset. Keep in mind that the data in the sample comes from a ``True'' distribution that I invented.
+	
+\end{document}

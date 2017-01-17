@@ -22,9 +22,125 @@
 
 \section*{Discrete Random Variables}
 
-	\subsection*{Dice}
+	We will start generating the discrete variables. We already know that variables are called \emph{random} variables because they can take values according to their probability.\\
 	
-	Let's call $X$ the variable that indicates the result we obtain when we roll a 6-side dice. This variable can assume 6 different values, \{1,2,3,4,5,6\}, and all of them have the same probability, $P(X=x_i) = 1/6$.\newline\\
+	\subsection*{First example: \emph{sex} of fake citizens}
+	
+	Let's start with the \emph{sex} variable, which we will name $X$. Playing God, I am deciding that the distribution of sex among fake citizens is:\\
+	
+\begin{tabular}{|c|c|c|}
+\hline
+	$i$ & $x_i$ & $P(X=x_i)$\\
+	\cline{1-3}
+	0 & "Male" & 0.40\\
+	1 & "Female" & 0.60\\
+\hline
+\end{tabular}\\
+
+$x_i$ are the values that the variable can assume (in this case, $x_1 = $ ``Male'' and $x_2 = $ ``Female''). Can you understantd this notation?\\
+
+We can also write that the probability that the probability of ou variable $X$ (\emph{sex}) beying equal $x_1$ (``Male'') is $P(X = x_1) = 0.4$. Again, can you understand this notation?\\
+
+The table above indicates us the \textbf{distribution} of sex in the fake population.
+
+We can also represent the distribution in a bar plot, as in Figure~\ref{f1}:
+
+\begin{figure}[htp]
+\centering
+\includegraphics[scale=0.50]{sex_distribution.png}
+\caption{Sex Distribution in our Fake Population}
+\label{f1}
+\end{figure}
+
+	\subsection*{Probability distribution \emph{vs} Sample distribution}
+
+	Wait! But I have data in my hand and, after counting it, I found out that there are 15 men and 15 women among the 30! How can we have 2 different distributions?\\
+
+	When we are playing God, we are drawing from the probability distribution that generates all the data in the world. For example, when we roll a dice or toss a coin, we know the process that generate the data (and define the probabilities for each event) and that is why we are able to compute probabilities without actually rolling the dice or tossing the coin.\\
+	
+	However, when we are working with human beings, we rarely have the oportunity to get to know the process that generate the data (even when we collect census data). That is why we work with samples.\\
+	
+	What you have in your hands is a sample of Fakeland individuals. Randomness was responsable for picking 15 men and 15 women, even thought we were expecting 12 man and 18 women.\\
+
+	We differentiate probability distribution from a sample distribution. We can build a sample distribiution from a frequency table (ocurrences of the variable in the sample!). More generally, we can build distribuitions from the realizations of the variable (e.g. number of seats in a Legislative, Moore and Siegel, ch 10, pp. 202-203).\\
+	
+	We can represent our sample distribution as follows:\\
+	
+\begin{tabular}{|c|c|c|}
+\hline
+	$i$ & $x_i$ & $f(x_i)$\\
+	\cline{1-3}
+	0 & "Male" & 0.50\\
+	1 & "Female" & 0.50\\
+\hline
+\end{tabular}\\
+	
+	Where $f(x_i)$ means the \emph{relative frequency} of $x_i$ in our sample.//
+
+	Take a moment to see if you can understand this very important difference.
+
+	\subsection*{Why do we sample?}
+	
+	If the probability distribution is unknown, we can try to \textbf{estimate} it by taking the sample distribution. Let's look fot the other discrete variables in the fake dataset. All of the tables contain both the probability distribution that generated the sample and the sample distribution. For the sake of simplicity, we called all the variables as $X$, but you can use any other letter or even subscripts (as in $X_1 ... X_n$).\\
+	
+	Educational Level:\\
+	
+\begin{tabular}{|c|c|c|c|}
+\hline
+	$i$ & $x_i$ & $P(X=x_i)$ & $f_i$\\
+	\cline{1-4}
+	1 & "No High School Degree" & 0.10 & 0.10\\
+	2 & "High School Degree" & 0.40 & 0.47\\
+	3 & "College Incomplete" & 0.20 & 0.2\\
+	4 & "College Degree or more" & 0.30 & 0.23\\	
+\hline
+\end{tabular}\newline\\
+
+Marriage Status (Married = Yes):\\
+
+\begin{tabular}{|c|c|c|c|}
+\hline
+	$i$ & $x_i$ & $P(X=x_i)$ & $f_i$\\
+	\cline{1-4}
+	0 & "Yes" & 0.50 & 0.53\\
+	1 & "No" & 0.50 & 0.47\\
+\hline
+\end{tabular}\newline\\
+
+Number of Children:\\
+
+\begin{tabular}{|c|c|c|c|}
+\hline
+	$i$ & $x_i$ & $P(X=x_i)$ & $f_i$\\
+	\cline{1-4}
+	1 & "0" & 0.50 & 0.73\\
+	2 & "1" & 0.25 & 0.13\\
+	3 & "2" & 0.20 & 0.07\\
+	4 & "3 or more" & 0.05 & 0.07\\	
+\hline
+\end{tabular}\newline\\
+
+Party affiliation:\\
+
+\begin{tabular}{|c|c|c|c|}
+\hline
+	$i$ & $x_i$ & $P(X=x_i)$ & $f_i$\\
+	\cline{1-4}
+	1 & "Conservative Party" & 0.20 & 0.20\\
+	2 & "Socialist Party" & 0.20 & 0.30\\
+	3 & "Independent" & 0.60 & 0.50\\
+\hline
+\end{tabular}\newline\\
+
+And so on...
+
+\section*{Discrete Random Variables - Dices and Coins}
+
+	Let's take a look at classical dices and coins examples of discrete random variables.
+
+	\subsection*{Dices and coins - Examples}
+		
+	A) Let's call $X$ the variable that indicates the result we obtain when we roll a 6-side dice. This variable can assume 6 different values, \{1,2,3,4,5,6\}, and all of them have the same probability, $P(X=x_i) = 1/6$.\newline\\
 	\begin{tabular}{|c|c|}
 \hline
 	$x_i$ & $P(X=x_i)$\\
@@ -37,13 +153,11 @@
 	6 & 1/6\\
 
 \hline
-\end{tabular}\\
+\end{tabular}\newline\\
 
-Note: The realization of a random variable is a particular value that it takes and we usually represent it with a small letter (e.g. $x_i$ is a realization of $X$)
+Note: The realization of a random variable is a particular value that it takes and we usually represent it with a small letter (e.g. $x_i$ is a realization of $X$).\\
 
-
-	\subsection*{Discrete Random variables - dice}
-	Let's call $Y$ the variable that indicates the result we obtain when we roll a pair of dice and sum the results. What is the distribution of $Y$?\\
+	B) Let's call $Y$ the variable that indicates the result we obtain when we roll a pair of dice and sum the results. What is the distribution of $Y$?\\
 	
 	\begin{tabular}{|c|c|c|c|}
 \hline
@@ -56,9 +170,9 @@ Note: The realization of a random variable is a particular value that it takes a
 	5 & 4/36 & 11 & 2/36\\
 	6 & 5/36 & 12 & 1/36\\
 \hline
-\end{tabular}\\
+\end{tabular}\newline\\
 
-	Let's call $X$ the variable that indicates the number of heads we obtain when we toss a coin 5 times. This variable can assume 6 different values: \{0,1,2,3,4,5\}.\\
+	C) Let's call $X$ the variable that indicates the number of heads we obtain when we toss a coin 5 times. This variable can assume 6 different values: \{0,1,2,3,4,5\}.\\
 	
 	\begin{tabular}{|c|c|}
 \hline
@@ -73,119 +187,13 @@ Note: The realization of a random variable is a particular value that it takes a
 \hline
 \end{tabular}
 
-	\subsection*{Example -- parties and cabinets}
-	Hypothetically, we could build distribution tables like we just did for the dice examples for a lot of discrete variables in political science.\\
-	
-	Example: Number of cabinets controlled by Party A in Dilma's second term ($X$).\\
-	
-	\begin{tabular}{|c|c|}
-\hline
-	$x_i$ & $P(X=x_i)$\\
-	\cline{1-2}
-	none & $P(X=0)$\\
-	1 & $P(X=1)$\\
-	2 & $P(X=2)$\\
-	3 or more & $P(X \geq 3)$\\
-\hline
-\end{tabular}\\
 
-Note: Why can we fill the table with numbers when we talk about dices and coins and we can't it with number of cabinets?\\
-
-
-	\subsection*{Example -- Policy options}
-	Example: Household policy options for federal government ($X$).\\
-	
-	\begin{tabular}{|c|c|}
-\hline
-	Policy option ($x_i$) & $P(X=x_i)$\\
-	\cline{1-2}
-	Credit to individuals/families (A) & $P(X=A)$\\
-	Transfers to municipal programs (B) & $P(X=B)$\\
-	Partneship with urban settlement movements (C) & $P(X=C)$\\
-\hline
-\end{tabular}\\
-
-	\subsection*{Presidential election on TV}
-	
-	Example: During 2014 Brazilian presidental elections, a voter turned her TV on during HEG (Horário Eleitoral Gratuito). What is the probability, for each candidate, that she saw them (or their adds) first?\\
-	
-	\begin{tabular}{|c|c|c|}
-\hline
-	Candidate $(x_i)$ & Time on HEG & $P(X=x_i)$\\
-	\cline{1-3}
-	Dilma & 11 minutes and 24 seconds  & 0.380\\
-	Aécio & 4 minutes and 35 seconds & 0.153\\
-	Marina & 2 minutes and 03 seconds & 0.068\\
-	Other & 11 minutes and 58 seconds & 0.399\\
-	\cline{1-3}
-	Total & 30 minutes and 00 seconds & 1.000\\
-\hline
-\end{tabular}\\
-
-Note: we haven't measured the realization of the variable, but we know the data generation process - and we are not talking about dices and coins!
-
-	\subsection*{Discrete Random variables - drawing graphs}
-	
-	We can represent the distribution of a random discrete variable with both a table, as we have done, or a histogram. We are going to do it in our laboratory, but can you graph the distributions we have just seen?\\
-
-	It is very easy to convert a frequency table into a a probability distribution for discrete random variables. The probability that a specific case drawn at random from a sample has a specific value, $x_i$, is the relative frequency of the value $x_i$.\\
-
-	$Y$ the variable that indicates the result we obtain when we roll a pair of dice and sum the results.\newline\\
-	\begin{tabular}{|c|c|c|c|}
-\hline
-	$y_i$ & $P(Y=y_i)$ & $y_i$ & $P(Y=y_i)$\\
-	\cline{1-4}
-	1 & 0 & 7 & 6/36\\
-	2 & 1/36 & 8 & 5/36\\
-	3 & 2/36 & 9 & 4/36\\
-	4 & 3/36 & 10 & 3/36\\
-	5 & 4/36 & 11 & 2/36\\
-	6 & 5/36 & 12 & 1/36\\
-\hline
-\end{tabular}
-\newline\\
-Can you make the graph of this probability distribution?
-
-
-	\subsection*{Sample distribution}
-	We differentiate probability distribution from a sample distribution. We can build a sample distribiution from a frequency table (ocurrences of the variable in the sample!). More generally, we can build distribuitions from the realizations of the variable (e.g. number of seats in a Legislative, Moore and Siegel, ch 10, pp. 202-203).
-
-	\subsection*{Sample distribution}
-	Example: (Made-up) survey with 2000 respondents in 2014 Brazilian presidential elections.
-	\newline\\
-		\begin{tabular}{|c|c|c|}
-\hline
-	Candidate $(x_i)$ & \# of respondents & $P(X=x_i)$\\
-	\cline{1-3}
-	Dilma & 800  & 0.40\\
-	Aécio &  500 & 0.25\\
-	Marina & 400 & 0.20\\
-	Other/Null/DK & 500 & 0.25 \\
-	\cline{1-3}
-	Total & 2000 & 1.00\\
-\hline
-\end{tabular}
-	   
 	\subsection*{Discrete Random variables - Cumulative Distribution}
 	For ordered or integer discrete random variables ($X$), we might be interested in $P(X \leq x_i)$ instead of $P(X=x_i)$, which is just the probability function $f(x_i)$. We can also think of $P(X \leq x_i)$ as a function, $F(X)$, and it is defined as:
 	\[F(x_i) = P(X \leq x_i) =  \sum\limits_{i\leq x_i} f(i)\]
 	This function is called the cumulative distribution function.
 
-	\subsection*{Discrete Random variables - drawing graphs}
-	$Y$ the variable that indicates the result we obtain when we roll a pair of dice and sum the results.\newline\\
-	\begin{tabular}{|c|c|c|c|}
-\hline
-	$y_i$ & $P(Y=y_i)$ & $y_i$ & $P(Y=y_i)$\\
-	\cline{1-4}
-	1 & 0 & 7 & 6/36\\
-	2 & 1/36 & 8 & 5/36\\
-	3 & 2/36 & 9 & 4/36\\
-	4 & 3/36 & 10 & 3/36\\
-	5 & 4/36 & 11 & 2/36\\
-	6 & 5/36 & 12 & 1/36\\
-\hline
-\end{tabular}
-\newline\\
-Can you make the graph of this cumulative distribution?
+
+
 
 \end{document}

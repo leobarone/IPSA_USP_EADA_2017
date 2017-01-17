@@ -67,8 +67,12 @@ Again, before you start, download the shortened version (Brazil only) we prepare
 - [Probability rules - Part III] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_III.pdf)
 - [Probability rules - Part IV] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_IV.pdf)
 - [Random variables] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_random_variables.pdf)
+- [Building a fake dataset] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_building_fake_data.pdf)
 - [Discrete Random variables] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_discrete_random_variables.pdf)
 - [Expected Value] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_expected_value.pdf)
+- [Joint Distributions] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_joint_distributions.pdf)
+- [Continuous Random Variables] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_continuous_random_variables.pdf)
+- [Covariance and Correlation] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_covariance_correlation.pdf)
 
 ### Activities
 

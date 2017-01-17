@@ -1,0 +1,48 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{indentfirst}
+\usepackage{hyperref}
+\let\oldemptyset\emptyset
+\let\emptyset\varnothing
+
+
+\title{\textbf{Esssentials of Applied Data Analysis\\
+				IPSA-USP Summer School 2017}\newline\\
+				Handout - Continous random variables}
+
+\author{Leonardo Sangali Barone\\ \href{leonardo.barone@usp.br}{leonardo.barone@usp.br}}
+\date{jan/17}
+
+\begin{document}
+
+\maketitle
+
+\section*{Continuous random variables}
+	
+	The rules that apply to discrete random variables also apply to continous random variables.\\
+	
+	The main problem when we deal with a continuous random variable is that we cannot count every possible outcome and multiply it by the probability of that outcome occurin (remember: continous variables are and infinite set and uncontable!)\\
+
+	\subsection*{Expectation and variance of a continuous random variable}
+
+	In other words, we cannot do this:
+	
+	\[\sum\limits_{i=1}^n P(X = x_i) = \sum\limits_{i=1}^n f(x_i) = 1\]
+or this
+		\[E[X] = \sum\limits_{i=1}^n x_i* P(X=x_i) =\sum\limits_{i=1}^n x_i * f(x_i)\]
+or this
+		\[Var[X] = \sum\limits_{i=1}^n[x_i - E[X]]^2 * P(X=x_i) =\sum\limits_{i=1}^n[x_i - E[X]]^2 * f(x_i)\]
+		
+		because can't count every $x_i$. What can we do instead?\\
+
+	We can use integrals (see Moore and Siegel, chap 7 for integrals) to sum the area of the continuous distributions and then calculate the expected value and variance:
+	
+	\[\int_{-\infty}^{\infty} \text{f(x) dx} = 1\]
+	\[E[X] = \int_{-\infty}^{\infty}  \text{x f(x) dx}\]
+	\[Var[X] = \int_{-\infty}^{\infty}  [x - E[X]]^2 \text{f(x) dx}\]
+
+
+\end{document}
