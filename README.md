@@ -73,6 +73,7 @@ Again, before you start, download the shortened version (Brazil only) we prepare
 - [Joint Distributions] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_joint_distributions.pdf)
 - [Continuous Random Variables] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_continuous_random_variables.pdf)
 - [Covariance and Correlation] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_covariance_correlation.pdf)
+- [Central Limit Theorem] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_central_limit_theorem.pdf)
 
 ### Activities
 
