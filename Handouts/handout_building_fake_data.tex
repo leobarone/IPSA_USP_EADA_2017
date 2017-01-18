@@ -22,9 +22,9 @@
 
 \section*{Building a fake dataset of Fakeland citizens}
 
-	Fakeland is a very stable democracy that helds presidential elections every 4 years. We are going to build the fake dataset of Fakeland individual citizens with information about their basic characteristics and political opinions/positions. We are going to do it in order to explore types of variables, to understand the link between probability rules and data analysis and to learn about random variables.\\
+	Fakeland is a very stable democracy that helds presidential elections every 4 years. We are going to build the fake dataset of Fakeland individual citizens with information about their basic fake characteristics and fake political opinions/positions. We are going to do it in order to explore types of variables, to understand the link between probability rules and data analysis and to learn about random variables.\\
 	
-	The variables that our dataset will contain are:
+	The variables that our fake dataset will contain are:
 	
 	\begin{itemize}
 
@@ -33,10 +33,11 @@
 	\item \emph{educ}: educational level
 	\item \emph{income}: montly income measured in fake money (FM\$)
 	\item \emph{savings}: total fake money (FM\$) in savings account
-	\item \emph{marrige}: marriage status
+	\item \emph{marrige}: marriage status (yes = married)
 	\item \emph{kids}: number of children
 	\item \emph{party}: party affiliation
 	\item \emph{turnout}: intention to vote in the next election
+	\item \emph{vote\_history}: numbers of presidential elections that turned out since 2002 elections
 	\item \emph{economy}: opinion about the national economy performance
 	\item \emph{incumbent}: opinion about the incumbent president performance
 	\item \emph{candidate}: candidate of preference
@@ -52,10 +53,10 @@
 	\begin{itemize}
 		\item Nominal - can be counted, but not ordered
 		\item Ordinal - can be counted and ordered
-		\item Integer - can be counted, ordered and are distance among categories are mathematically meaningful (yes, numbers with no decimals).
+		\item Integer - can be counted, ordered and are distance between categories are mathematically meaningful (yes, numbers with no decimals).
 	\end{itemize}
 	
-	B) Continuous - Infinite set of values. Not countable (yes, whatever number there is, including $\sqrt{2} $ and $\pi$). \\
+	B) Continuous - Infinite set of values. Not countable (yes, whatever number there is, including $\sqrt{2} $ and $\pi$).\\
 
 	\subsection*{Types of Variables - Exercise}
 
@@ -63,8 +64,10 @@
 
 	\subsection*{Drawing data from fake distributions}
 	
-	To build the dataset one could simply type values in a spreadsheet. However, there is a more elegant strategy. Instead of filling a dataset randomly, I could determine, as if I were God, the distributions of each variable and sample from that distribution. In fact, the fake dataset you have in hands was built tis way using \emph{R Statistical Package}. You can find the code that builds it in the course material.
-	
-	In the next handout we will explore distributions of discrete and continuous random variables using our fake dataset. Keep in mind that the data in the sample comes from a ``True'' distribution that I invented.
+	To build the dataset one could simply type values in a spreadsheet. However, there is a more elegant strategy. Instead of filling a dataset randomly, I could determine, as if I were God, the \textbf{distributions of values in each variable} and sample from that distribution. In fact, the fake dataset you have in hands was built this way using \emph{R Statistical Package}. You can find the code that builds it in the course material.\\
+
+By now you already know that in a sample space, each outcome is associated with a probability of occurence. Probability distributions -- or probability models, as they are called sometimes -- are simply the set of these probabilities. When	I built Fakeland, I modeled the distribution of characteristics of it's citizens (Fakeland is my\emph{ model}).\\
+
+	In the next handout we will explore distributions of discrete and continuous random variables using our fake dataset. Keep in mind that the data in the sample comes from a ``True'' distribution for Fakeland citizens that I invented.
 	
 \end{document}

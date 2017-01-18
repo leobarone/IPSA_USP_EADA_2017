@@ -8,6 +8,7 @@ kids_levels <- c('0', '1', '2', '3 or more')
 party_levels <- c("Conservative Party", "Socialist Party", "Independent")
 opinion_scale <- c("Very good", "Good", "About average", "Bad", "Very Bad", "Don't Know")
 candidate_levels <- c("Trampi", "Rilari", "Other", "None")
+vote_history_levels <- c('0', '1', '2', '3', '4')
 
 fake_data <- data.frame(
   age = as.integer(rnorm(n = 30, mean = 35, sd = 5)),
@@ -19,6 +20,7 @@ fake_data <- data.frame(
   kids = sample(x = kids_levels, size = 30, prob = c(0.5, 0.25, 0.2, 0.05), replace = T),
   party = sample(x = party_levels, size = 30, prob = c(0.2, 0.2, 0.6), replace = T),
   turnout = sample(x = yes_no, size = 30, prob = c(0.5, 0.5), replace = T),
+  vote_history = sample(x = vote_history_levels, size = 30, prob = c(0.3, 0.1, 0.1, 0.2, 0.3), replace = T),
   economy = sample(x = opinion_scale, size = 30, prob = c(0.05, 0.15, 0.3, 0.3, 0.15, 0.05), replace = T),
   incumbent = sample(x = opinion_scale, size = 30, prob = c(0.2, 0.2, 0.2, 0.2, 0.15, 0.05), replace = T),
   candidate = sample(x = candidate_levels, size = 30, prob = c(0.4, 0.4, 0.1, 0.1), replace = T)
@@ -34,3 +36,10 @@ table(fake_data$educ)/30
 table(fake_data$marriage)/30
 table(fake_data$kids)/30
 table(fake_data$party)/30
+
+table(fake_data$sex, fake_data$party)/30
+
+fake_data$income
+
+hist(fake_data$income)
+plot(density(fake_data$income), main = "")

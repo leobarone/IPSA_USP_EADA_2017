@@ -51,51 +51,32 @@
 	Roll a 6-side dice.\\
 	
 	What's is the probability of getting a 5 \textbf{OR} a 6?\\
-	\[P(\text{5 or 6}) = P(5 \cup 6) = ?\]\\
-	
-	What's is the probability of getting a prime \textbf{OR} an odd number?\\
-	\[P(\text{prime or odd}) = P(\text{prime }\cup\text{ odd}) = ?\]
-
-	\subsection*{Dices and mutually exclusive events - answers}
-
-	Roll a 6-side dice.\\
-	
-	What's is the probability of getting a 5 \textbf{OR} a 6?\\
-	\[P(\text{5 or 6}) = P(5 \cup 6) = \frac{\#\{5, 6\}}{6} = \frac{2}{6} = \frac{1}{3} = \frac{1}{6} + \frac{1}{6} = P(5) + P(6)\]\\ 
+	\[P(\text{5 or 6}) = P(5 \cup 6) = \frac{\#\{5, 6\}}{\#\{1, 2, 3, 4, 5, 6\}} = \frac{2}{6} = \frac{1}{3} = \frac{1}{6} + \frac{1}{6} = P(5) + P(6)\]\\ 
 	since 5 and 6 are mutually exclusive events.\\
 	
 	What's is the probability of getting a prime \textbf{OR} an odd number?\\
 
-	\textbf{Beware!!!} This is not true for events that are not mutually exclusive (note that 3 and 5 are both prime and odd).
+	Could it be $P(\text{prime or odd}) =  P(\text{prime}) + P(\text{odd})$?
 
-	\[P(\text{prime}) + P(\text{odd}) = \frac{\#\{2, 3, 5\}}{6} + \frac{\#\{1, 3, 5\}}{6} = \frac{3}{6} + \frac{3}{6} = \frac{6}{6} = 1\]
-	
-	\[P(\text{prime or odd}) = P(\text{prime }\cup\text{ odd}) = \frac{\#\{1, 2, 3, 5\}}{6} = \frac{4}{6} \neq P(\text{prime}) + P(\text{odd})\]
+	No! \textbf{Beware!!!} This is not true for events that are not mutually exclusive (note that 3 and 5 are both prime and odd).
 
+	\[P(\text{prime or odd}) = P(\text{prime }\cup\text{ odd}) = \frac{\#\{1, 2, 3, 5\}}{6} = \frac{4}{6} \neq \]
+	\[ \neq P(\text{prime}) + P(\text{odd}) = \frac{\#\{2, 3, 5\}}{6} + \frac{\#\{1, 3, 5\}}{6} = \frac{3}{6} + \frac{3}{6} = \frac{6}{6} = 1\]
 
 	\subsection*{Mutually exclusive events - random legislator}
-
-	Let's go back to the Legislative House example.\\
-	
-	What's is the probability of getting a legislator from Party A \textbf{OR} B?
-	\[P(\text{A or B}) = P(A \cup B) = ?\]
-	
-	What's is the probability of getting a legislator from Party A \textbf{OR} a woman (W)?
-	\[P(\text{A or W}) = P(A \cup W) =?\]
-
-
-	\subsection*{Mutually exclusive events - random legislator - answers}
 	
 	Let's go back to the Legislative House example.\\
 	
 	What's is the probability of getting a legislator from Party A \textbf{OR} B?
 	\[P(\text{A or B}) = P(A \cup B) = P(A) + P(B)\]
 	
+	since $A$ and $B$ are independent events.\\
+	
 	What's is the probability of getting a legislator from Party A \textbf{OR} a woman (W)?\\
 	
-	If there is at leat a woman on party A, the events are not mutually excluise and \[P(\text{A or W}) = P(A \cup W) \neq P(A) + P(W)\]
+	If there is at leat a woman on party A, the events are not mutually exclusive and \[P(\text{A or W}) = P(A \cup W) \neq P(A) + P(W)\]
 	
-	If it is a all-men party, being a woman and beloging to party A are mutually exclusive and
+	If $A$ is a all-men party, being a woman and beloging to party A are mutually exclusive and
 	\[P(A \cup W) = P(A) + P(W)\]
 
 
@@ -122,7 +103,6 @@
 
 	\subsection*{Not mutually exclusive events - dice and legislators}
 	Going back to our problem, what's is the probability of getting a prime \textbf{OR} an odd number?
-	
 	\[P(\text{prime }\cup\text{ odd}) = P(\text{prime}) + P(\text{odd}) - P(\text{prime }\cap\text{ even}) 
 	= \frac{3}{6} + \frac{3}{6} - \frac{2}{6} = \frac{4}{6} = \frac{2}{3}\]
 	

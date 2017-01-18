@@ -1,14 +1,50 @@
-# Essentials of Applied Data Analysis - Stata Laboratories and Activities
+# Essentials of Applied Data Analysis - Stata Laboratories, Handouts and Activities
 
-Please, read the instructions bellow before you start the activities and laboratories.
+Welcome to Essentials of Applied Data Analysis course materials repository at VIII IPSA-USP Summer School on Methods and Concepts in Political Science and International Relations, 2017!
+
+##  Schedule
+
+From January 23, 2017 to  January 27, 2017. The Summer School detailed schedule can be found [here] (http://summerschool.fflch.usp.br/schedule/detailed-schedule)
+
+##  What will I find here?
+
+All of the course materials, except for the readings, can be found in this page. Scrool down to locate the course Syllabus, Handouts, Laboratories, Activities and Miscellania. 
 
 ##  Syllabus
 
-Updated (jan-04-2017) version of the [Syllabus] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Syllabus/syllabus.pdf)
+Jan-04-2017 version of the [Syllabus] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Syllabus/syllabus.pdf)
 
 ##  Readings
 
-Please, login at the course page at http://ipsa-usp.com/users/login to access the readings.
+Please, login at the [course page] (http://ipsa-usp.com/users/login) to access the readings.
+
+## Handouts
+
+In the 2017 edition of the course I decided we will follow handouts during class instead of presentations. I hope that the handouts together became a nice reference material during and after the course.
+
+All of the handouts where built inspired on the course readings, in particular Ross' and Siegel and Moore's books.
+
+The handouts by themselves are not sufficient for self-learning and does not make sense without the classes they have been prepared to. I am sure you will find typos and small mistakes in the material. If you do, please, comunicate me.
+
+Also, expect me to edit the handouts during the course and the days after it ends.
+
+At the end of the course, I will combine all of the handouts in a single document and make it available.
+
+- [Set Theory] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_set_theory.pdf)
+- [Probability rules - Axioms and Theorems summary] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_axioms_theorems.pdf)
+- [Probability rules - Single Events] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_single.pdf)
+- [Probability rules - Compound Events] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_compound.pdf)
+- [Probability rules - Independence] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_independence.pdf)
+- [Probability rules - Bayes' rule] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_bayes.pdf)
+- [Random variables] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_random_variables.pdf)
+- [Building a fake dataset] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_building_fake_data.pdf)
+- [Discrete Random variables] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_discrete_random_variables.pdf)
+- (Not finished) [Continuous Random Variables] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_continuous_random_variables.pdf)
+- [Expected Value] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_expected_value.pdf)
+- [Joint Distributions] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_joint_distributions.pdf)
+- [Covariance and Correlation] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_covariance_correlation.pdf)
+- (Not finished) [Special Distributions] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_special_distributions.pdf)
+- (Not finished) [Central Limit Theorem] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_central_limit_theorem.pdf)
 
 ##  Laboratories
 
@@ -56,29 +92,11 @@ Again, before you start, download the shortened version (Brazil only) we prepare
 - [Laboratory 10 - Generating new variables and calculating functions of variables] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Labs/stata_lab_10.md)
 - [Laboratory 11 - Confidence intervals and hypothesis test] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Labs/stata_lab_11.md)
 
-## Activities and Handouts
-
-### Handouts
-
-- [Set Theory] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_set_theory.pdf)
-- [Probability rules - Axioms and Theorems summary] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_axioms_theorems.pdf)
-- [Probability rules - Single Events] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_single.pdf)
-- [Probability rules - Compound Events] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_compound.pdf)
-- [Probability rules - Independence] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_independence.pdf)
-- [Probability rules - Bayes' rule] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_probability_bayes.pdf)
-- [Random variables] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_random_variables.pdf)
-- [Building a fake dataset] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_building_fake_data.pdf)
-- [Discrete Random variables] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_discrete_random_variables.pdf)
-- [Expected Value] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_expected_value.pdf)
-- [Joint Distributions] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_joint_distributions.pdf)
-- [Continuous Random Variables] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_continuous_random_variables.pdf)
-- [Covariance and Correlation] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_covariance_correlation.pdf)
-- [Central Limit Theorem] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_central_limit_theorem.pdf)
-
-### Activities
+## Activities
 
 To be anounced
 
 ### Code and Miscellania
 
-- [Stata Coin Simulation](https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Do_files/coin_simulation.do)
+- [Stata Coin Simulation] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Do_files/coin_simulation.do)
+- [Fake Dataset of Fakeland Citizens] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Miscellania/simulated_dataset.R)

@@ -32,10 +32,9 @@
 	\subsection*{Independence - Examples}
 	\begin{itemize}
 		\item Toss a coin twice. The result of the second toss is independent of the result in the first toss. 
-		\item Take one card from a deck. Don't put it back. Take a second card. The result of the second card is not independent of the first.
-		\item A legislator support to a government (or being a woman, or being from some part of the country) is not independent of her party.		
+		\item Take one card from a deck. Don't put it back. Take a second card. The result of the second card is \emph{not} independent of the first.
+		\item In general, a legislator support to a government (or being a woman, or being from some part of the country) is not independent of her party.		
 	\end{itemize}	
-
 
 
 	\subsection*{Axioms and theorems of probability (5)}
@@ -47,17 +46,13 @@
 	\subsection*{Independence - Coin}
 	1) Toss a coin twice.
 	What's is the probability of getting heads ($H$) twice?
-
 	\[P(H_1\cap H_2) = P(H_1) * P(H_2) = P(H) * P(H) =\frac{1}{2} * \frac{1}{2} = \frac{1}{4}\]
-
 	\[\text{Sample Space = \{H,H\},\{H,T\},\{T,H\},\{T,T\}}\]
 	
 	2) Toss a coin 50 times. What's is the probability of getting 50 times head ($H$)?
-
-	\[P(H_1\cap H_2 \cap...\cap H_{50}) = (P(H))^{50} = (\frac{1}{2})^{50} \simeq 8.8 * 10^{-16}\]
+	\[P(H_1\cap H_2 \cap...\cap H_{50}) = (P(H))^{50} = \left(\frac{1}{2}\right)^{50} \simeq 8.8 * 10^{-16}\]
 	
 	3) Toss a coin 10 times. What's is the probability of  getting at least one Tail ($T$)?
-	
 	\[P(\text{1 Tail or more}) = P(\text{exactly 1 Tail}) + P(\text{exactly 1 Tails}) + ... + P(\text{exactly 10 Tails}) =\]
 	\[= \{P(T\cap H \cap ... \cap H) + P(H \cap T\cap H \cap ... \cap H) + P(H \cap ... \cap H \cap T)\} +  \]
 	\[+P(\text{exactly 2 Tails}) + ... + P(\text{exactly 10 Tails}) =\]
@@ -65,7 +60,6 @@
 	OMG!!! How do I compute that?\\
 
 	Use the fact that the complementary of ``getting at least one Tail'' is ``not getting any Tails'', which is the same as ``getting 10 heads''. And ``getting 10 heads'' is much easier to compute:
-	
 	\[P(\text{1 Tail or more}) = 1 - P(\text{not getting any Tails}) = 1 - P(\text{10 Hs}) = 1 - (1/2)^{10}  \simeq 0.9990234\]
 
 
@@ -147,7 +141,7 @@
 							{\frac{\#\{1,2,3\}}{\#\{1,2,3,4,5,6\}}} = 
 							\frac{\frac{1}{6}}{\frac{1}{2}} = \frac{2}{6} = \frac{1}{3}\]
 	
-	Alternatively, 	you can read this problem as "I already know I got 1, 2 or 3. Given that, what is the probability that I got a 1?
+	Alternatively, 	you can read this problem as ``I already know I got 1, 2 or 3. Given that, what is the probability that I got a 1''?
 
 	
 	\[P(A|B) = \frac{P(A\cap B)}{P(B)} = 		=\frac{\text{\# outcomes in event A \textbf{and} B}}
@@ -155,16 +149,6 @@
 							} = 
 							\frac{\#\{1\}}{\#\{1,2,3\}}= 
 							\frac{1}{3}\] 	 
-
-
-	\subsection*{Conditional Probability - family}
-	1) A family has two kids. What is the probability that both kids be are girls?\\
-	
-	2)A family has two kids. The first is a girl. What is the probability that the other one is also a girl?\\
-	
-	3) A family has two kids. One is a girl (event $B$). What is the probability that the other kid is a girl (event $G$ = 2 girls)?\\
-
-	4) (SUPER HARD EXTRA QUESTION) A family has two kids. One is \textbf{a girl called Arya} (event $B$). What is the probability that the other kid is a girl (event $G$ = 2 girls)?
 
 
 	\subsection*{Conditional Probability - family - answers}
@@ -190,7 +174,7 @@
 
 	4) (SUPER HARD EXTRA QUESTION) A family has two kids. One is \textbf{a girl called Arya} (event $B$). What is the probability that the other kid is a girl (event $G$ = 2 girls)?\\
 
-	Answers can be found at Mlodinov's book.
+	Answer can be found at Mlodinov's book.
 
 	\subsection*{Axioms and theorems of probability (7)}
 	\begin{itemize}
@@ -214,8 +198,8 @@
 		\item Likelihood of voting for the incumbent \emph{given} economy performance (GDP, unempolyment, etc)
 		\item Probability of finshing high school \emph{given} income.
 		\end{itemize}
-		 And so on...
 
+Hey, let's discuss it for a few minutes.
 
 
 \end{document}

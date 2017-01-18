@@ -38,13 +38,11 @@
 
 	\subsection*{Coins, dices, cards and legislators.}
 	
-	Let's see how probability works for coins, dices, cards and legislators in this handout.
+	Let's see how probability works for coins, dices, cards and legislators in this handout.\\
 	
-		\begin{itemize}
-			\item Toss a coin. What is the probability of getting a head?
-			\item Toss a coin. What is the probability of getting a head?
-		\end{itemize}
+ 	Toss a coin. What is the probability of getting a head?
 	\[P(Head) = P(Tail) = 1/2	\]
+	
 	How do we know it without actually tossing a coin?
 
 	\subsection*{First Definitions}
@@ -79,19 +77,6 @@
 
 
 	\subsection*{Dice - quick exercise}
-	Roll a 6-side dice.\\
-	
-	What is the probability of getting a 5?\\
-	\[P(5) = ?	\]
-	
-	What is the probability of getting an even number?\\
-	\[P(even) = ?	\]
-	
-	What is the probability of getting a prime number?\\
-	\[P(prime) = ?	\]
-
-
-	\subsection*{Dice - quick exercise - answers}
 
 	Roll a 6-side dice.\\
 	
@@ -118,12 +103,12 @@
 
 	What is the difference between the dice and the random legislator examples? Did we have to actually roll the dices to get calculate the probabilities of getting a 5, an even or prime number? Can I guess the probability of choosing at random a woman or a legislator from Party A without observing and counting legislators?\\
 
-	Let's get frustrated a little bit. Let's toss a coin 10 times (or toss 10 coins) and check how many heads we get. There "should" be 5 heads, rigth?\\
+	\subsection*{Tossing Coins}
+
+	Let's get frustrated a little bit. Let's toss a coin 10 times (or toss 10 coins) and check how many heads we get (see Figure~\ref{f1} for a Stata simulation). There "should" be 5 heads, right?\\
 
 
-	Now let's do it 100 times. And 1000. And 1000000.
-	
-	\begin{verbatim}
+		\begin{verbatim}
 
 	 *install new ado (aka package w/ new functions) using the command findit
 	 findit heads
@@ -132,7 +117,6 @@
 	 heads, flips(10)
 	\end{verbatim}
 
-See Figure~\ref{f1}\\ 
 
 \begin{figure}[htp]
 \centering
@@ -146,7 +130,7 @@ See Figure~\ref{f1}\\
 	 heads, flips(100)
 	\end{verbatim}
 
-See Figure~\ref{f2}\\
+	Now let's do it 100 times (Figure~\ref{f2}). And 1000 (Figure~\ref{f3}). And 1000000.\\
 
 \begin{figure}[htp]
 \centering
@@ -160,7 +144,6 @@ See Figure~\ref{f2}\\
 	 heads, flips(1000)
 	\end{verbatim}
 
-See Figure~\ref{f3}\\
 
 \begin{figure}[htp]
 \centering
@@ -177,14 +160,14 @@ Try yourself with 1000000 coin tosses:
 	 heads, flips(1000000)
 	\end{verbatim}
 	
-	What if we use a biased coin?
+
+
+	What if we use a biased coin, with $P(Head) = 0.3$? See Figure~\ref{f4} and Figure~\ref{f5} for a simulation with 100 and 1000 biased coins, respectively.\\
 
 	\begin{verbatim}
 	 * toss 100 a biased coin w/ P(Head) = 0.3
 	heads, flips(100) prob(.3)	 
 	\end{verbatim}
-
-See Figure~\ref{f4}\\
 
 \begin{figure}[htp]
 \centering
@@ -198,7 +181,6 @@ See Figure~\ref{f4}\\
 	heads, flips(1000) prob(.3)	 
 	\end{verbatim}
 
-See Figure~\ref{f5}\\
 
 \begin{figure}[htp]
 \centering

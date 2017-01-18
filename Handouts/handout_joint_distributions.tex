@@ -28,7 +28,7 @@
 	For discrete variables, we can use contingency tables to represent the joint frequency distribution for two random variables.
 
 
-	\subsection*{Joint Distribution - candidates}
+	\subsection*{Joint Distribution - legislators}
 	
 	Example: two variables, gender ($Y$) and political party ($X$)\\
 	If we take the relative frequence of the cells we get:\\
@@ -41,11 +41,11 @@
 	Man ($M$) & $P(M \cap A)$ & $P(M \cap B)$ & $P(M \cap C)$\\
 \hline
 \end{tabular}\newline\\
-\small{Note: joint distributions are represented, guess what, by joint probabilities!}
+Note: joint distributions are represented, guess what, by joint probabilities!
 
 
 	\subsection*{Joint Distribution }
-	We can write the joint distributions as \[P(Women \cap \text{Party B}) \text{ or }P(W \cup B)\] or, if we have named the variables \[P(Gender = Women, Party = \text{Party B})\] \[P(X = W, Y = B)\] These notations are equivalent if everything is well named.
+	We can write the joint probabilities as \[P(Women \cap \text{Party B}) \text{ or }P(W \cup B)\] or, if we have named the variables \[P(Gender = Women, Party = \text{Party B})\] \[P(X = W, Y = B)\] These notations are equivalent if everything is well named.
 
 
 
@@ -63,53 +63,27 @@
 \end{tabular}\newline\\
 
 
-	\subsection*{Joint Distribution - candidates}
+	\subsection*{Joint Distribution - sex and political affiliation in Fakeland}
 
+	We could do the same using our Fakeland example (let's not use numbers here).
 
-	Example: (made-up) survey - 1200 women and 800 men. Gender (Y) and candidate of choice (X). If we take the relative frequencies we get:\newline\\
-	\begin{tabular}{|c|cc|}
+	Example:\newline\\
+	\begin{tabular}{|c|ccc|}
 \hline
-	Y/X & Dilma ($D$) & Aécio ($A$)\\
+	Sex/Party & Conservative ($C$) & Independent ($I$) & Socialist ($S$)\\
 \hline
-	Women ($W$) & $P(W \cap D) = 700/2000 $ & $P(W \cap A) = 500/2000$\\
-	Men ($M$) & $P(M \cap D) = 400/2000$ & $P(M \cap A)= 400/2000$ \\
+	Women ($W$) & $P(W \cap C)$ & $P(W \cap I)$ & $P(W \cap S)$\\
+	Man ($M$) & $P(M \cap C)$ & $P(M \cap I)$ & $P(M \cap S)$ \\
 \hline
+
 \end{tabular}\newline\\
 
-	\subsection*{Joint Distribution - conditional probability}
-	Let's use the same example to see how conditional probabilities can be represented in a table
-\newline\\
-	\begin{tabular}{|c|cc|}
-\hline
-	Y/X & Dilma ($D$) & Aécio ($A$)\\
-\hline
-	Women ($W$) & $P(W|D) = 700/1100 $ & $P(W|A) = 500/900$\\
-	Men ($M$) & $P(M|E) = 400/1100$ & $P(M|A)= 400/900$ \\
-\hline
-	Total ($M$) & $P(W \cup M|D)=1$ & $P(W \cup M|A)=1$ \\
-\hline
-\end{tabular}\newline\\
+Now, use the fake dataset to build the table above. Remember that what you will build is the joint \emph{sample} distribution (not the ``True'' Fakeland distribution).
 
-	\subsection*{Joint Distribution - conditional probability}
-	More on notation.
-\[P(X=x_i|Y=1) = P(X|Y=1) = \]
-\[= \frac{P(X=x, Y =1)}{P(Y=1)} = \frac{P(X \cap (Y =1))}{P(Y=1)} \]
-
-
-	\subsection*{Joint Distribution - conditionak probability}
-	Let's use the same example to see how conditional probabilities can be represented in a table
-\newline\\
-\small{
-	\begin{tabular}{|c|cc|c|}
-\hline
-	Y/X & Dilma ($D$) & Aécio ($A$) & Total\\
-\hline
-	($W$) & $P(D|W) = 700/1200 $ & $P(A|W) = 500/1200$ & $P(D \cup A|W)=1$\\
-	($M$) & $P(D|M) = 400/800$ & $P(A|M)= 400/800$ & $P(D \cup A|M)=1$ \\
-\hline
-\end{tabular}\newline\\
-}
-
+	\subsection*{Joint Distribution - conditional probability notation}
+	
+	All of the notations below are equivalent.
+\[P(X=x_i|Y=1) = P(X|Y=1) = \frac{P(X=x, Y =1)}{P(Y=1)} = \frac{P(X \cap (Y =1))}{P(Y=1)} \]
 
 
 	\subsection*{Joint Distribution - Marginal Probabilities}
@@ -118,12 +92,12 @@
 	Example:\newline\\
 	\begin{tabular}{|c|ccc|c|}
 \hline
-	Gender/Party & Party A ($A$) & Party B ($B$) & Party C ($C$) & Marginal\\
+	Sex/Party & Conservative ($C$) & Independent ($I$) & Socialist ($S$) & Marginal\\
 \hline
-	Women ($W$) & $P(W \cap A)$ & $P(W \cap B)$ & $P(W \cap C)$ & P(W)\\
-	Man ($M$) & $P(M \cap A)$ & $P(M \cap B)$ & $P(M \cap C)$ & P(M)\\
+	Women ($W$) & $P(W \cap C)$ & $P(W \cap I)$ & $P(W \cap S)$ & P(W)\\
+	Man ($M$) & $P(M \cap C)$ & $P(M \cap I)$ & $P(M \cap S)$ & P(M) \\
 \hline
-	Marginal & $P(A)$ & $P(B)$ & $P(C)$ & 1\\
+	Marginal & $P(C)$ & $P(I)$ & $P(S)$ & 1\\
 \hline
 
 \end{tabular}\newline\\
@@ -141,12 +115,9 @@ or
 
 This means that one averages over other events and focuses on the one event, A, of interest.
 
-	\subsection*{Joint Distribution - Independence}
+	\subsection*{Joint Distribution - Independence - Cards}
 	What does happen with the joint distribution of two random variables if they are independent of each other?
 	
-
-
-	\subsection*{Joint Distribution - Independence - Cards}
 	Example: choose a card from a deck. Calculate the relative frequencies:\newline\\
 	\begin{tabular}{|c|cccc|c|}
 \hline
@@ -159,20 +130,74 @@ This means that one averages over other events and focuses on the one event, A, 
 	Marginal & 13/52 & 13/52 & 13/52 & 13/52 & 52/52\\
 \hline
 
-\end{tabular}
+\end{tabular}\\
 
+We got a king. What is the probability that it is the king of hearts? \[P(H|K)=1/4\]
+We got a queen. What is the probability that it is the queen of hearts? \[P(H|Q)=1/4\]	
+We got any other card. What is the probability that it is a card of hearts? \[P(H|O)=1/4\]
 
-	\subsection*{Joint Distribution - Independence - Cards}
-We got a king. What is the probability that it is the king of hearts? $P(H|K)=1/4$\newline\\	
-We got a queen. What is the probability that it is the queen of hearts? $P(H|Q)=1/4$\newline\\	
-We got any other card. What is the probability that it is a card of hearts? $P(H|O)=1/4$
-
-	\subsection*{Joint Distribution - Independence - Cards}
 If the marginals probabilities are equal to the conditional probabilities, than the two variables are independent from each other.
 \[P(H) = P(H|K)=P(H|Q)=P(H|O) = 1/4\]
 Under independence:
 \[P(H\cap K) = P(H)*P(K) = 1/4*1/13 = 1/52\] or
 \[P(Y= Hearts, X = King) = P(Y = Hearts)*P(X = King)\]
 
+	\subsection*{Joint Distribution - sex and political affiliation in Fakeland}
+
+	Let's go back to our empirical example. If you completed the sample joint distribution, you got the table below:
+
+Count: 
+
+\begin{tabular}{|c|ccc|c|}
+\hline
+	Sex/Party & Conservative ($C$) & Independent ($I$) & Socialist ($S$) & Marginal\\
+\hline
+	Women ($W$) & 3 & 8 & 4 & 15\\
+	Man ($M$) & 3 & 7 & 5 & 15 \\
+\hline
+	Marginal & 6 & 15 & 9 & 30\\
+\hline
+\end{tabular}
+
+Proportion relative to Total: 
+
+\begin{tabular}{|c|ccc|c|}
+\hline
+	Sex/Party & Conservative ($C$) & Independent ($I$) & Socialist ($S$) & Marginal\\
+\hline
+	Women ($W$) & 0.10 & 0.27 & 0.13 & 0.50\\
+	Man ($M$) & 0.10 & 0.23 & 0.17 & 0.50 \\
+\hline
+	Marginal & 0.20 & 0.50 & 0.30 & 1.00\\
+\hline
+\end{tabular}
+
+Proportion relative to Rows: 
+
+\begin{tabular}{|c|ccc|c|}
+\hline
+	Sex/Party & Conservative ($C$) & Independent ($I$) & Socialist ($S$) & Marginal\\
+\hline
+	Women ($W$) & 0.20 & 0.54 & 0.26 & 1.00\\
+	Man ($M$) & 0.20 & 0.47 & 0.33 & 1.00 \\
+\hline
+	Marginal & 0.20 & 0.50 & 0.30 & 1.00\\
+\hline
+\end{tabular}
+
+Proportion relative to Columns: 
+
+\begin{tabular}{|c|ccc|c|}
+\hline
+	Sex/Party & Conservative ($C$) & Independent ($I$) & Socialist ($S$) & Marginal\\
+\hline
+	Women ($W$) & 0.50 & 0.53 & 0.13 & 0.45\\
+	Man ($M$) & 0.50 & 0.47 & 0.17 & 0.55 \\
+\hline
+	Marginal & 1.00 & 1.00 & 1.00 & 1.00\\
+\hline
+\end{tabular}\\
+
+Can you tell if the two variables are independent of each other just by looking at the tables? We are going to train this a lot with real data using Stata.
 
 \end{document}
