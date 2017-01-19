@@ -38,7 +38,7 @@ any other operator), and "value" is a value for our "var_condition".
 The subcommand "if" is a very poweful tool and is used in almost every analysis. 
 Let's give a look at some empirical examples.
 
-Let's start with Latinobarometer data for Brazil (Latinobarometro_2015_eng_BR.dta file). By now you probably know how to open the data. We are going to use the variable "P15N" that we utilized previously.
+Let's start with Latinobarometer data for Brazil (Latinobarometro_2011_eng_BR.dta file). By now you probably know how to open the data. We are going to use the variable "P15N" that we utilized previously.
 
 ```
 codebook P15N
@@ -104,7 +104,7 @@ Work in groups of 2 to 4, please! Don’t do it by yourself! Try to figure out h
 your group. Learn by doing (aka learn by making a lot of mistakes). It is ok to cheat and check how the other groups are doing their
 activity. Just ask them nicely and don’t bother them. Leo and Victor are here to help you. Ask questions!
 
-Use the Latinobarometro_2015_eng.dta and answer the following questions.
+Use the Latinobarometro_2011_eng.dta and answer the following questions.
 
 a) Pick two variables that you may think that are related. Build a frequency table using one of them to create a subsample.
 

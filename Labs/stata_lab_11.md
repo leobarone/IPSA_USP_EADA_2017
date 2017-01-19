@@ -4,7 +4,7 @@ Authors: [Leonardo Sangali Barone] (leonardo.barone@usp.br) and [Patrick Silva] 
 
 ## Objective
 
-We are going to learn the basics of confidence intervals and hypothesis test. We will use 2 different datasets. We will use 2 different datasets, the 2013 Growth Academic Performance Index (API) Data File and the 2015 Latinobarometer.
+We are going to learn the basics of confidence intervals and hypothesis test. We will use 2 different datasets. We will use 2 different datasets, the 2013 Growth Academic Performance Index (API) Data File and the 2011 Latinobarometer.
 
 ## Confidence intervals
 

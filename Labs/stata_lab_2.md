@@ -4,11 +4,11 @@ Authors: [Leonardo Sangali Barone] (leonardo.barone@usp.br) and [Patrick Silva] 
 
 ## Objective
 
-In this laboratory we are going to learn the basics of data description. We will produce frequency tables, histograms and densities. We will use 2 different datasets. We will use 2 different datasets, the 2013 Growth Academic Performance Index (API) Data File and the 2015 Latinobarometer.
+In this laboratory we are going to learn the basics of data description. We will produce frequency tables, histograms and densities. We will use 2 different datasets. We will use 2 different datasets, the 2013 Growth Academic Performance Index (API) Data File and the 2011 Latinobarometer.
 
 ## Describe the data and get familiarized
 
-Let's start with Latinobarometer data for Brazil (Latinobarometro_2015_eng_BR.dta file). By now you probably now how to open the data. Get yourself familiarized with the data by the describing the dataset before moving on.
+Let's start with Latinobarometer data for Brazil (Latinobarometro_2011_eng_BR.dta file). By now you probably now how to open the data. Get yourself familiarized with the data by the describing the dataset before moving on.
 
 ## Frequency Tables - One variable
 
@@ -60,7 +60,7 @@ It's time for you to work by yourselves.
 
 Work in groups of 2 to 4, please! Don’t do it by yourself! Try to figure out how to solve any problems discussing it with your group. Learn by doing (aka learn by making a lot of mistakes). It is ok to cheat and check how the other groups are doing their activity. Just ask them nicely and don’t bother them. Leo and Victor are here to help you. Ask questions!
 
-Download the 2015 Latinobarometer dictionary from the course materials. Get used to it by examining the variables on the dataset and by reading  the dicitionary
+Download the 2011 Latinobarometer dictionary from the course materials. Get used to it by examining the variables on the dataset and by reading  the dicitionary
 
 a) Choose five categorical or ordinal variables at the Latinobarometer dataset. Try to choose variables that you believe that are related to each other. In the future we are going to formulate hypothesis on how these variables might be connected.
 

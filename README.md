@@ -4,7 +4,7 @@ Welcome to Essentials of Applied Data Analysis course materials repository at VI
 
 ##  Schedule
 
-From January 23, 2017 to  January 27, 2017. The Summer School detailed schedule can be found [here] (http://summerschool.fflch.usp.br/schedule/detailed-schedule)
+From January 23, 2017 to  January 27, 2017. The Summer School detailed schedule can be found [here] (http://summerschool.fflch.usp.br/schedule/detailed-schedule).
 
 ##  What will I find here?
 
@@ -12,17 +12,24 @@ All of the course materials, except for the readings, can be found in this page.
 
 ##  Syllabus
 
-Jan-04-2017 version of the [Syllabus] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Syllabus/syllabus.pdf)
+Jan-04-2017 version of the [Syllabus] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Syllabus/syllabus.pdf).
 
 ##  Readings
 
-Please, login at the [course page] (http://ipsa-usp.com/users/login) to access the readings.
+Please, login at the [course page] (http://ipsa-usp.com/users/login) to access the readings (enrolled students only).
+
+The two books I use most and recommend reading are:
+
+- Moore, W. H., & Siegel, D. A. (2013). A Mathematics Course for Political and Social Research. Princeton University Press.
+- Ross, S. M. (2010). Introductory Statistics. Academic Press.
 
 ## Handouts
 
+Author: [Leonardo Sangali Barone] (leonardo.barone@usp.br)
+
 In the 2017 edition of the course I decided we will follow handouts during class instead of presentations. I hope that the handouts together became a nice reference material during and after the course.
 
-All of the handouts where built inspired on the course readings, in particular Ross' and Siegel and Moore's books.
+All of the handouts where built inspired on the course readings, in particular Ross' and Siegel and Moore's books, for which I did not cited properly.
 
 The handouts by themselves are not sufficient for self-learning and does not make sense without the classes they have been prepared to. I am sure you will find typos and small mistakes in the material. If you do, please, comunicate me.
 
@@ -70,13 +77,15 @@ Whenever you need to check a variable in this dataset, you can go to the diction
 
 I particularly like this dataset because you can, in the near future, learn more Stata by yourself at [IDRE-UCLA] (http://www.ats.ucla.edu/stat/stata/) resources, whose [web book] (http://www.ats.ucla.edu/stat/stata/webbooks/reg/chapter1/statareg1.htm) on regression analysis uses and older versions of the same dataset.
 
-#### 2015 Latinobarometer
+#### 2011 Latinobarometer
 
-The second one is the 2015 Latinobarometer. This is a very popular survey on democracy and elections in Latin America and the original can be found [here] (http://www.latinobarometro.org/latContents.jsp). Latinobarometer contains data on several Latin American Countries. We are going to use the data on Brazil only. "Barometers" are very good source of public opinion data regarding issues of political regime, civil liberties, economic performance of governments and etc. I am sure this dataset can be source of lots of dissertations of students in political economy and comparative politics.
+The second one is the 2011 Latinobarometer. This is a very popular survey on democracy and elections in Latin America and the original can be found [here] (http://www.latinobarometro.org/latContents.jsp). Latinobarometer contains data on several Latin American Countries. We are going to use the data on Brazil only. "Barometers" are very good source of public opinion data regarding issues of political regime, civil liberties, economic performance of governments and etc. I am sure this dataset can be source of lots of dissertations of students in political economy and comparative politics.
 
-We will use the dataset to formulate hypothesis about the brazilian electorate and explore our creativity. This is why it will be very important that we spend some time exploring the dictionary, whose .pdf is available both in [english] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Data/Latinobarometro_Questionnaire_2015_Eng.pdf) and [spanish] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Data/Latinobarometro_Cuestionario_2015_Esp.pdf) (although not in portuguese, even though it exists). It is a consolidated survey, so don't be frustrated if the data you are looking for is not ther and look for something else.
+We will use the dataset to formulate hypothesis about the brazilian electorate and explore our creativity. This is why it will be very important that we spend some time exploring the dictionary, whose .pdf is available both in [english] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Data/Latinobarometro_2011_eng.pdf) and [spanish] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Data/Latinobarometro_2011_esp.pdf) (although not in portuguese, even though it exists). It is a consolidated survey, so don't be frustrated if the data you are looking for is not ther and look for something else.
 
-Again, before you start, download the shortened version (Brazil only) we prepared for the laboratories [here] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Data/Latinobarometro_2015_eng_BR.dta).
+Again, before you start, download the shortened version (Brazil only) we prepared for the laboratories [here] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Data/Latinobarometro_2011_eng_BR.dta).
+
+Note: I had planned to use the 2015 Latinobarometer instead of the 2011. However, there were some changes in the data available (for example, age is not an Integer, but an Ordinal variable) and I decided to go back to the 2011 dataset. If you find "2015" somewhere in the tutorials (and you probably will), please, read 2011. If you want to use the 2015, I encourage you, as long as you don't mind adapting the laboratories by yourself. I left the datasets ([2015, Brazil only] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Data/Latinobarometro_2015_eng_BR.dta) and questionaires ([english] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Data/Latinobarometro_Questionnaire_2015_Eng.pdf); [spanish] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Data/Latinobarometro_Cuestionario_2015_Esp.pdf)) in available.
 
 ### Links to the laboratories 
 
