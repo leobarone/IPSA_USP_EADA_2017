@@ -105,7 +105,15 @@ Note: I had planned to use the 2015 Latinobarometer instead of the 2011. However
 
 To be anounced
 
-### Code and Miscellania
+## Code and Miscellania
 
 - [Stata Coin Simulation] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Do_files/coin_simulation.do)
 - [Fake Dataset of Fakeland Citizens] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Miscellania/simulated_dataset.R)
+
+## Questions, issues and discussions in Github
+
+If you have any question, you can always write to [me] (leobarone@gmail.com) or to [Victor] (victor.asaraujo@gmail.com). But, there is a nice way to share your questions, open issues or start discussions: use github to open an issue!
+
+Just click on "Issues" at the tab menu above, check if it doesn't yet exist (or if there is something very similar), and create your new issue (as in the illustration below)
+
+![alt text](https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Miscellania/issues.png "How to open issues")
