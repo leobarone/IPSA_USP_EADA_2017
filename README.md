@@ -8,7 +8,7 @@ From January 23, 2017 to  January 27, 2017. The Summer School detailed schedule 
 
 ##  What will I find here?
 
-All of the course materials, except for the readings, can be found in this page. Scrool down to locate the course Syllabus, Handouts, Laboratories, Activities and Miscellania. 
+All of the course materials, except for the readings, can be found in this page. Scrool down to locate the course Syllabus, Handouts, Laboratories, Activities and Miscellania. You will also find at "Issues" a Forum for discussions.
 
 ##  Syllabus
 
@@ -18,7 +18,7 @@ Jan-04-2017 version of the [Syllabus] (https://github.com/leobarone/IPSA_USP_EAD
 
 Please, login at the [course page] (http://ipsa-usp.com/users/login) to access the readings (enrolled students only).
 
-The two books I use most and recommend reading are:
+The two books I use most and recommend reading for this course are:
 
 - Moore, W. H., & Siegel, D. A. (2013). A Mathematics Course for Political and Social Research. Princeton University Press.
 - Ross, S. M. (2010). Introductory Statistics. Academic Press.
@@ -29,7 +29,7 @@ Author: [Leonardo Sangali Barone] (leonardo.barone@usp.br)
 
 In the 2017 edition of the course I decided we will follow handouts during class instead of presentations. I hope that the handouts together became a nice reference material during and after the course.
 
-All of the handouts where built inspired on the course readings, in particular Ross' and Siegel and Moore's books, for which I did not cited properly.
+All of the handouts where built inspired on the course readings, in particular Ross' and Siegel and Moore's books, both not cited properly in the material.
 
 The handouts by themselves are not sufficient for self-learning and does not make sense without the classes they have been prepared to. I am sure you will find typos and small mistakes in the material. If you do, please, comunicate me.
 
@@ -52,6 +52,8 @@ At the end of the course, I will combine all of the handouts in a single documen
 - [Covariance and Correlation] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_covariance_correlation.pdf)
 - (Not finished) [Special Distributions] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_special_distributions.pdf)
 - (Not finished) [Central Limit Theorem] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_central_limit_theorem.pdf)
+- (Not finished) [Sampling, Confidence Intervals and Hypothesis Testing] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_hypothesis_testing.pdf)
+- (Not finished) [Bivariate Regression] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_regression.pdf)
 
 ##  Laboratories
 
@@ -85,7 +87,7 @@ We will use the dataset to formulate hypothesis about the brazilian electorate a
 
 Again, before you start, download the shortened version (Brazil only) we prepared for the laboratories [here] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Data/Latinobarometro_2011_eng_BR.dta).
 
-Note: I had planned to use the 2015 Latinobarometer instead of the 2011. However, there were some changes in the data available (for example, age is not an Integer, but an Ordinal variable) and I decided to go back to the 2011 dataset. If you find "2015" somewhere in the tutorials (and you probably will), please, read 2011. If you want to use the 2015, I encourage you, as long as you don't mind adapting the laboratories by yourself. I left the datasets ([2015, Brazil only] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Data/Latinobarometro_2015_eng_BR.dta) and questionaires ([english] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Data/Latinobarometro_Questionnaire_2015_Eng.pdf); [spanish] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Data/Latinobarometro_Cuestionario_2015_Esp.pdf)) in available.
+Note: I had planned to use the 2015 Latinobarometer instead of the 2011. However, there were some changes in the data available (for example, age is not an Integer, but an Ordinal variable) and I decided to go back to the 2011 dataset. If you find "2015" somewhere in the tutorials (and you probably will), please, read 2011. If you want to use the 2015, I encourage you, as long as you don't mind adapting the laboratories by yourself. I left the datasets ([2015, Brazil only] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Data/Latinobarometro_2015_eng_BR.dta)) and questionaires ([english] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Data/Latinobarometro_Questionnaire_2015_Eng.pdf); [spanish] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Data/Latinobarometro_Cuestionario_2015_Esp.pdf)) available.
 
 ### Links to the laboratories 
 
@@ -114,6 +116,8 @@ To be anounced
 
 If you have any question, you can always write to [me] (leobarone@gmail.com) or to [Victor] (victor.asaraujo@gmail.com). But, there is a nice way to share your questions, open issues or start discussions: use github to open an issue!
 
-Just click on "Issues" at the tab menu above, check if it doesn't yet exist (or if there is something very similar), and create your new issue (as in the illustration below)
+Just click on "Issues" at the tab menu above, or [here] (https://github.com/leobarone/IPSA_USP_EADA_2017/issues), check if it doesn't yet exist (or if there is something very similar), and create your new issue (as in the illustration below)
+
+You need to create a github account to create or comment and issue. This is a nice chance to do it! It's super cool and geek.
 
 ![alt text](https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Miscellania/issues.png "How to open issues")
