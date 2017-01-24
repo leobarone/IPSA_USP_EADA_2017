@@ -104,7 +104,7 @@ Note: I had planned to use the 2015 Latinobarometer instead of the 2011. However
 - [Laboratory 11 - Confidence intervals and hypothesis test] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Labs/stata_lab_11.md)
 
 ## Activities
-- [Activity 1 - The basics of probability and Câmara dos Deputados] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Activities/activity_1)
+- [Activity 1 - The basics of probability and Câmara dos Deputados] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Activities/activity_1.md)
 
 
 ## Code and Miscellania
