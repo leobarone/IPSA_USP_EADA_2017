@@ -111,7 +111,9 @@ Note: I had planned to use the 2015 Latinobarometer instead of the 2011. However
 ## Code and Miscellania
 
 - [Stata Coin Simulation] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Do_files/coin_simulation.do)
-- [Fake Dataset of Fakeland Citizens] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Miscellania/simulated_dataset.R)
+- [R code to build of Fakeland Citizens] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Miscellania/simulated_dataset.R)
+- [Data of Fakeland Citizens] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Miscellania/fake_data.csv)
+- [Students data (Rogue one, sum of birthdate, etc)] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Miscellania/students_data.csv)
 
 ## Questions, issues and discussions in Github
 
