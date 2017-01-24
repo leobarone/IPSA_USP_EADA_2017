@@ -103,8 +103,9 @@ Note: I had planned to use the 2015 Latinobarometer instead of the 2011. However
 - [Laboratory 10 - Generating new variables and calculating functions of variables] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Labs/stata_lab_10.md)
 - [Laboratory 11 - Confidence intervals and hypothesis test] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Labs/stata_lab_11.md)
 
-## Activities
+## Activities and Exercises
 - [Activity 1 - The basics of probability and Câmara dos Deputados] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Activities/activity_1.md)
+- [Textbook Exercise 1 - The basics of probability] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Activities/textbook_exercises1.md)
 
 
 ## Code and Miscellania
