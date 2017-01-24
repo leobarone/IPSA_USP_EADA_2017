@@ -26,6 +26,8 @@ fake_data <- data.frame(
   candidate = sample(x = candidate_levels, size = 30, prob = c(0.4, 0.4, 0.1, 0.1), replace = T)
 )
 
+write.table(fake_data, "fake_data.csv", sep = ";", row.names = F)
+
 View(fake_data)
 
 counts <- table(c(rep("Male", 45), rep("Female", 55)))/100

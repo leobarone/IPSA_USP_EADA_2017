@@ -51,8 +51,8 @@ At the end of the course, I will combine all of the handouts in a single documen
 - [Joint Distributions] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_joint_distributions.pdf)
 - [Covariance and Correlation] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_covariance_correlation.pdf)
 - (Not finished) [Special Distributions] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_special_distributions.pdf)
-- (Not finished) [Central Limit Theorem] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_central_limit_theorem.pdf)
-- (Not finished) [Sampling, Confidence Intervals and Hypothesis Testing] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_hypothesis_testing.pdf)
+- [Central Limit Theorem] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_central_limit_theorem.pdf)
+- (Graphs are missing) [Sampling, Confidence Intervals and Hypothesis Testing] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_hypothesis_testing.pdf)
 - (Not finished) [Bivariate Regression] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Handouts/handout_regression.pdf)
 
 ##  Laboratories
