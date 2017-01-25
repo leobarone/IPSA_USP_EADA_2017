@@ -108,7 +108,8 @@ Note: I had planned to use the 2015 Latinobarometer instead of the 2011. However
 - [Activity 1 - The basics of probability and Câmara dos Deputados] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Activities/activity_1.md)
 - [Textbook Exercise 1 - The basics of probability] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Activities/textbook_exercises1.md)
 - [Activity 2 - Frequency and Two-way tables with Fake data] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Activities/activity_2md)
-- [Activity 3 - Variance "by hand"] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Activities/activity_3.pdf)
+- [Activity 3 - Variance "by hand" - pdf explanation] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Activities/activity_3.pdf)
+- [Activity 3 - Variance "by hand" - Excel Example] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Activities/fake_data_variance_example.xlsx)
 
 
 ## Code and Miscellania
