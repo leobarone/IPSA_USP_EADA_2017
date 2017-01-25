@@ -1,4 +1,4 @@
-# Laboratory 4 - Two way tables (2 discrete variables)
+# Forgotten Laboratory - Two way tables (2 discrete variables)
 
 We are going to learn the basics of two way tables. We will produce frequency tables, histograms and densities. We will use 2 different datasets. We will use 2 different datasets, the 2013 Growth Academic Performance Index (API) Data File and the 2015 Latinobarometer.
 
