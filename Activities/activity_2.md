@@ -1,4 +1,4 @@
-# Activity 1 - Basics of probability
+# Activity 2 - Fake Data
 
 Download the [Fake dataset] (https://raw.githubusercontent.com/leobarone/IPSA_USP_EADA_2017/master/Data/fake_data.csv). Use the "Import" button to open the dataset on Stata. Remember that the data is in .csv format (which is a text file) and semi-colon is the symbol separating colluns.
 
