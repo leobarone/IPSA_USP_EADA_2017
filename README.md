@@ -95,6 +95,7 @@ Note: I had planned to use the 2015 Latinobarometer instead of the 2011. However
 - [Laboratory 2 - Distributions: frequency tables, histograms and densities] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Labs/stata_lab_2.md)
 - [Laboratory 3 - Renaming, labeling and recoding variables] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Labs/stata_lab_3.md)
 - [Laboratory 4 - Logical Operators and if] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Labs/stata_lab_4.md)
+- [Forgotten Laboratory - Two-way tables] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Labs/stata_lab_4_1.md)
 - [Laboratory 5 - Table of summary statistics] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Labs/stata_lab_5.md)
 - [Laboratory 6 - Value labels] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Labs/stata_lab_6.md)
 - [Laboratory 7 - Comparison between groups and Box-plot graphs] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Labs/stata_lab_7.md)
@@ -106,6 +107,7 @@ Note: I had planned to use the 2015 Latinobarometer instead of the 2011. However
 ## Activities and Exercises
 - [Activity 1 - The basics of probability and Câmara dos Deputados] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Activities/activity_1.md)
 - [Textbook Exercise 1 - The basics of probability] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Activities/textbook_exercises1.md)
+- [Activity 2 - Frequency and Two-way tables with Fake data] (https://github.com/leobarone/IPSA_USP_EADA_2017/blob/master/Activities/activity_1.md)
 
 
 ## Code and Miscellania
